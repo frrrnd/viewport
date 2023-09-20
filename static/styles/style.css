@@ -182,6 +182,7 @@ video {
     width: 100%;
     text-align: center;
     font-size: 12px;
+}
 
 /* Component: Button */
 .button {
@@ -201,5 +202,24 @@ video {
 
 .button:hover {
   background-color: #1c1c1c;
+}
+
+/* Page: 404 */
+.page-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: calc(100vmin - 280px);
+}
+
+.page-404 p {
+  text-align: center;
+}
+
+.page-404 a {
+  text-align: center;
 }
 
