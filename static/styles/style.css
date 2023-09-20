@@ -214,12 +214,3 @@ video {
 
   height: calc(100vmin - 280px);
 }
-
-.page-404 p {
-  text-align: center;
-}
-
-.page-404 a {
-  text-align: center;
-}
-
