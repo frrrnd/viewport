@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ .Site.Title }}{{ if not .IsHome }}: {{ .Title | default .Site.Title}}{{ end }}</title>
+	<base href="{{ .Site.BaseURL }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}"/>
+	<meta property="og:title" content="{{ .Title | default .Site.Title}} {{ if not .IsHome }} - {{ .Site.Title }} {{ end }}">
+	<meta property="og:description" content="{{if .Description}}{{ .Description }}{{else}}{{.Title | default .Params.Title}}{{end}}">
+	<meta property="og:image" content="{{ .Site.BaseURL }}images/meta-image.jpg">
+	<meta property="og:url" content="{{ .Permalink }}">
+	<meta property="og:site_name" content="{{ .Site.Title }}">
+	<meta name="twitter:card" content="{{ .Site.BaseURL }}images/meta-image.jpg">
+	<meta name="twitter:image:alt" content="{{ .Site.Title }}">
+	<meta name="twitter:site" content="@viewportui">
+	<meta name="theme-color" content="#030303">
+	<meta name="view-transition" content="same-origin">
+	<link rel="preload stylesheet" href="{{ .Site.BaseURL }}styles/style.css" as="style">
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.png" type="image/x-icon">
+	<link rel="manifest" href="{{ .Site.BaseURL }}manifest.json">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>

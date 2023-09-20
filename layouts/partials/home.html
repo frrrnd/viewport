@@ -1,0 +1,33 @@
+<div class="content">
+    <div class="wrap">
+    {{ range .Pages }}
+    <article class="post">
+        <header role="banner" class="post__header">
+            <h3>{{ .Title }}</h3>
+            <time>{{ .Date.Format "02.01.2006" }}</time>
+        </header>
+        
+        <div class="post-content">
+            <div class="post__media">
+                {{ if eq .Params.media_type "image" }}
+                    <img src="{{ .Params.media }}" alt="{{ .Title }}">
+                {{ else }}
+                    <video autoplay loop src="{{ .Params.media }}"></video>
+                {{ end }}
+            </div>
+            
+            <div class="post__meta">
+                {{ partial "tags.html" . }}
+                <p>
+                    <a href="{{ .Params.source_link}}" target="_blank">
+                        <i data-source="{{ .Params.source }}">{{ .Params.source }}</i>
+                    </a>
+                </p>
+            </div>
+            
+            {{ .Content }}
+        </div>
+    </article>
+	{{ end }}
+    </div>
+</div>
