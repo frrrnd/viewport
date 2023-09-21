@@ -11,6 +11,11 @@
     --wrap-width: 600px;
 }
 
+::selection {
+    background-color: rgba(26,26,26,1);
+    color: var(--secondary-text-color);
+}
+
 html {
     box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
@@ -285,11 +290,14 @@ a {
     font-weight: 600;
 }
 
-
-
 @media screen and (max-width: 610px) {
     .wrap {
         padding-left: 24px;
         padding-right: 24px;
     }
+}
+
+#custom-substack-embed {
+    display: flex;
+    justify-content: center;
 }

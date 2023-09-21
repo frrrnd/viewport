@@ -22,3 +22,11 @@ if ('serviceWorker' in navigator) {
       console.log('Boo!', err);
     });
   }
+
+window.CustomSubstackWidget = {
+  substackUrl: "viewportui.substack.com",
+  placeholder: "Seu melhor e-mail",
+  buttonText: "Assinar",
+  theme: "purple"
+  // Go to substackapi.com to unlock custom redirect
+};
