@@ -159,7 +159,7 @@ a {
 
 .headline {
     padding: 12vh 0;
-    background: url(https://frnd.design/viewport/images/header-bg.png) no-repeat top center;
+    background: url(https://frnd.design/viewport/images/header-bg.png) no-repeat center 38px;
     background-size: cover;
 }
 
