@@ -1,13 +1,13 @@
 let prevScrollpos = window.pageYOffset;
-let element = document.getElementsByClassName("header-fixed")[0];
+let element = document.getElementsByClassName("header--fixed")[0];
 
 window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
     
     if (prevScrollpos > currentScrollPos) {
-        element.style.top = "50px";
+        element.style.transform = "translate(0,50px)";
     } else {
-        element.style.top = "-50px";
+        element.style.transform = "translate(0, -50px)";
     }
     
     prevScrollpos = currentScrollPos;
