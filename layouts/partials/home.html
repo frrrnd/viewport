@@ -12,7 +12,7 @@
                 {{ if eq .Params.media_type "image" }}
                     <img src="{{ .Params.media }}" alt="{{ .Title }}">
                 {{ else }}
-                    <video autoplay loop src="{{ .Params.media }}"></video>
+                    <video src="{{ .Params.media }}" playsinline autoplay loop ></video>
                 {{ end }}
             </div>
             
