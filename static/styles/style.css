@@ -128,7 +128,7 @@ a {
 
 .headline {
     padding: 12vh 0;
-    background: url(/images/header-bg.png) no-repeat top center;
+    background: url(https://frnd.design/viewport/images/header-bg.png) no-repeat top center;
 }
 
 .headline svg path {
