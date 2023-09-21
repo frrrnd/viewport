@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 :root {
     --background-color: #030303;
     --primary-text-color: #FFFFFF;
@@ -45,6 +51,7 @@ a {
 
 .header {
     padding: 4vh 0;
+    position: relative;
 }
 
 .header-top {
@@ -52,6 +59,35 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
+    min-height: 55px;
+    padding: 0 8px;
+}
+
+.header a {
+    display: block;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header a img {
+    max-width: 24px;
+}
+
+.hide-gradient {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.name-svg {
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 .main-navigation {
@@ -108,7 +144,7 @@ a {
 /* post */
 .post {
     border-bottom: 1px solid rgba(255,255,255,.1);
-    padding: 24px 0;
+    padding: 24px 0 16px 0;
 }
 
 .post__header {
@@ -135,14 +171,13 @@ a {
     justify-content: space-between;
 }
 
-[data-source="X"] {
-    background: url('/images/icons/x.svg') no-repeat center center;
-    text-indent: -9999px;
-    width: 18px;
-    height: 18px;
-    font-style: normal;
-    background-size: contain;
-    display: block;
+.post__meta a svg path {
+    transition: .4s;
+}
+
+.post__meta a:hover svg path {
+    fill: white;
+    transition: .4s;
 }
 
 .post__content--tags {
@@ -158,15 +193,13 @@ a {
     padding: 8px;
     border-radius: 10px;
     font-size: 14px;
+    line-height: 1.5;
 }
 
 .post__media img,
 .post__media video {
     border-radius: 10px;
-    border: 1px solid rgba(255,255,255,.1)
-}
-
-video {
+    border: 1px solid rgba(255,255,255,.1);
     max-width: 100%;
     height: auto;
 }
@@ -213,4 +246,31 @@ video {
   text-align: center;
 
   height: calc(100vmin - 280px);
+}
+
+/* article */
+.article__content p {
+    margin-bottom: 32px;
+}
+
+.article__content a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* sticky menu */
+
+.header-fixed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(0,0,0,.6);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 0 12px;
+    position: fixed;
+    top: 50px;
+    transition: top .4s;
+    z-index: 10;
 }
