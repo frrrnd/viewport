@@ -266,6 +266,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     background: rgba(0,0,0,.6);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     padding: 0 12px;
