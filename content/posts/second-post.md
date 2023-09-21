@@ -6,7 +6,7 @@ type: "post"
 tags: ['Web']
 source: "X"
 source_link: ""
-media: "/uploads/ssstwitter.com_1695163181557.mp4"
+media: "https://frnd.design/uploads/ssstwitter.com_1695163181557.mp4"
 media_type: "video"
 ---
 

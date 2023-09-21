@@ -1,3 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://frnd.design/viewport/'
+#baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'Viewport UI - Uma coleção curada de experiências em UI.'

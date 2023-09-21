@@ -1,6 +1,6 @@
 {{ partial "head.html" . }}
 
-{{ partial "nav.html" . }}
+{{ partial "header.html" . }}
 
 <main class="content">
   <section class="wrap page-404">
@@ -13,7 +13,7 @@
       A página que você procura não existe, ou mudou de URL.
     </p>
   
-    <a href="/" class="button">Voltar para Home</a>
+    <a href="{{ .Site.BaseURL }}" class="button">Voltar para Home</a>
 
   </section>
 </main>
