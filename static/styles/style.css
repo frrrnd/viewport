@@ -55,6 +55,35 @@ a {
     text-decoration: none;
 }
 
+blockquote {
+  margin: 3rem 0;
+  padding: 1.5rem 0;
+
+  font-family: "Instrument Serif", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+
+  --border: 1px solid rgba(255,255,255,.2);
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+blockquote > p {
+  margin: 0 !important;
+}
+
+blockquote > p .small {
+  font-size: 1rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,.1);
+  margin: 3rem auto;
+  max-width: 2rem;
+}
+
 /* header */
 
 .header {
@@ -292,7 +321,8 @@ a {
 
 /* Page */
 .article__content p {
-    margin-bottom: 32px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .article__content a {
