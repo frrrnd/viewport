@@ -20,7 +20,7 @@ Muitas vezes, esse aprendizado vem através das lições que encontramos no trab
 
 É isso o que o Viewport traz: 
 
-**Um meio de conectar os pontos trabalhos excelentes de pessoas incríveis.**
+**Um meio de conectar os pontos entre a sua inspiração e os trabalhos excelentes de pessoas incríveis.**
 
 *Use esse recurso sem moderação.*
 \
@@ -30,7 +30,7 @@ Muitas vezes, esse aprendizado vem através das lições que encontramos no trab
 \
 *E compartilhe com o mundo.*
 
-> “Se você tem uma ideia empolgante e não a traz para a vida, não é comum que a ideia encontre uma voz através de outro criador. Não é porque o outro artista roubou sua ideia, mas porque a hora de aquele ideia vir ao mundo chegou.” 
+> “Se você tem uma ideia empolgante e não a traz para a vida, não é comum que a ideia encontre uma voz através de outro criador. Não é porque o outro artista roubou sua ideia, mas porque a hora da ideia vir ao mundo chegou.” 
 > \
 > \
 > — Rick Rubin
