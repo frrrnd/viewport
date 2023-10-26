@@ -5,9 +5,9 @@
 }
 
 :root {
-    --background-color: #030303;
+    --background-color: #171717;
     --primary-text-color: #FFFFFF;
-    --secondary-text-color: #9196AD;
+    --secondary-text-color: #898989;
     --wrap-width: 600px;
 }
 
@@ -42,8 +42,9 @@ h1,h2 {
 }
 
 h1 {
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 16px;
+    font-size: 64px;
 }
 
 h2 {
@@ -58,7 +59,6 @@ a {
 blockquote {
   margin: 3rem 0;
   padding: 1.5rem 0;
-
   font-family: "Instrument Serif", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -87,113 +87,189 @@ hr {
 /* header */
 
 .header {
-    padding: 4vh 0;
-    position: relative;
-}
-
-.header__top {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-}
-
-/* sticky menu */
-
-.header--fixed {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background: rgba(0,0,0,.6);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    border-radius: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    transition: .4s;
-    z-index: 10;
-    padding: 10px;
-    max-width: var(--wrap-width);
-    align-items: center;
-    transform: translateY(50px);
+    padding: 0;
 }
 
 .header a {
     display: block;
+    max-width: max-content;
+    width: 100%;
 }
 
-.header__logo {
+.header svg {
+    display: block;
+}
+
+.header h2 {
+    text-align: left;
+    max-width: 60%;
+    width: 100%;
+    line-height: 1.5;
+}
+
+@media (max-width: 610px) {
+    .header h2 {
+        max-width: 100%;
+    }
+}
+
+.headline {
+    padding: 8vh 0;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.button-group a {
+    margin-right: 24px;
+    font-size: 14px;
+    /* background-color: #252525;
+    border: 1px solid #2b2b2b; */
+    color: white;
+    /* padding: 8px 12px; */
+    border-radius: 12px;
+    transition: .4s;
     display: flex;
     align-items: center;
 }
 
-.header a img {
-    max-width: 24px;
+.button-group a svg {
+    margin-right: 8px;
 }
 
-.hide-gradient {
-    visibility: hidden;
-    width: 0;
-    height: 0;
+.button-group a:hover {
+    opacity: .6;
+    transition: .4s;
 }
 
-.name-svg {
-    max-width: 390px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+/* Side nav */
+.side__navigation {
+    background-color: #252525;
+    position: fixed;
+    left: 24px;
+    top: 40%;
+    border-radius: 14px;
+    border: 1px solid #2b2b2b;
 }
 
-.main__navigation {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.main__navigation ul {
+.side__navigation ul {
     list-style-type: none;
-    padding-left: 0;
     display: flex;
-    flex-direction: row;
-    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin: 8px 0;
 }
 
-.main__navigation li {
-    margin-left: 24px;
+.side__navigation li {
+    max-width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
-.main__navigation a {
-    color: var(--secondary-text-color);
+.side__navigation li:not(:last-child) {
+    margin: 0 0 8px 0;
+}
+
+.side__navigation li:not(:last-child) svg {
+    fill: #7D7D7D;
+}
+
+.side__navigation li:last-child {
+    margin: 8px 0 0 0;
+}
+
+.side__navigation li:last-child:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #393939;
+    display: block;
+    position: absolute;
+    top: -8px;
+}
+
+.side__navigation svg {
+    width: 20px;
+    height: 20px;
     transition: .4s;
 }
 
-.main__navigation a:hover {
-    color: var(--primary-text-color);
+.side__navigation li:not(:last-child) a:hover svg {
+    transition: .4s;
+    fill: white;
+}
+
+.side__navigation li:last-child svg path {
     transition: .4s;
 }
 
-.main__navigation a svg path {
+.side__navigation li:last-child a:hover svg path {
+    stroke: white;
     transition: .4s;
 }
 
-.main__navigation a:hover svg path {
-    stroke: var(--primary-text-color);
+.side__navigation .is-active svg {
+    fill: white!important;
+}
+
+.side__navigation a {
+    position: relative;
+}
+
+.side__navigation a:hover:after {
+    opacity: 1;
     transition: .4s;
 }
 
-.headline {
-    padding: 12vh 0;
-    background: url(https://frnd.design/viewport/images/header-bg.png) no-repeat center 38px;
-    background-size: cover;
+.side__navigation a:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    width: max-content;
+    left: 150%;
+    opacity: 0;
+    background: #111;
+    padding: 8px;
+    font-size: 12px;
+    color: white;
+    top: -4px;
+    border-radius: 10px;
+    transition: .4s;
 }
 
-.headline svg path {
-    fill: url(#gradient);
+@media (max-width: 610px) {
+    .side__navigation {
+        bottom: 10px;
+        top: auto;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: max-content;
+        height: 50px;
+    }
+
+    .side__navigation ul {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .side__navigation li {
+        justify-content: space-between;
+        margin: 0 16px!important;
+    }
+
+    .side__navigation li:last-child:before {
+        content: none;
+    }
 }
 
 /* home */
@@ -215,6 +291,13 @@ hr {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 16px;
+}
+
+.post__header a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: inherit;
 }
 
 .post__header h3 {
@@ -271,6 +354,12 @@ hr {
     padding: 32px 0;
 }
 
+@media (max-width: 610px) {
+    .footer {
+        padding: 32px 0 64px 0;
+    }
+}
+
 .footer p {
     color: var(--secondary-text-color);
     width: 100%;
@@ -283,10 +372,7 @@ hr {
 }
 
 .news-box {
-    border: 1px solid rgba(255,255,255,.03);
-    border-radius: 10px;
     padding: 32px 0;
-    background-color: rgba(255,255,255,.05);
 }
 
 /* Component: Button */
@@ -344,4 +430,8 @@ hr {
     flex-direction: column;
     align-items: center;
     margin-bottom: 24px;
+}
+
+#disqus_thread {
+    margin-top: 16px;
 }

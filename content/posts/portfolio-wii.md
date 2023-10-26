@@ -3,6 +3,7 @@ title: "Portfolio Wii"
 date: 2023-10-05T10:36:24-03:00
 draft: false
 type: "post"
+layout: "single"
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/bvvst/status/1708259248352706865"

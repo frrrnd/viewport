@@ -1,0 +1,22 @@
+<nav class="side__navigation" role="navigation" aria-label="Main Navigation">
+    <ul>
+        <li>
+            <a data-tooltip="Home [1]" href="/" {{ if .IsHome }} class="is-active" {{ end }}>
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.891358 19.2881C0.891357 22.9409 3.85253 25.9021 7.50533 25.9021L19.2774 25.9021C22.9302 25.9021 25.8914 22.9409 25.8914 19.2881L25.8914 7.51607C25.8914 3.86328 22.9302 0.9021 19.2774 0.9021L7.50533 0.9021C3.85253 0.9021 0.891358 3.86328 0.891358 7.51607L0.891358 19.2881ZM2.93722 18.9659C2.93722 21.7055 5.1581 23.9264 7.8977 23.9264L18.885 23.9264C21.6246 23.9264 23.8455 21.7055 23.8455 18.9659L23.8455 16.9295C23.8455 14.1899 21.6246 11.969 18.885 11.969L7.8977 11.969C5.1581 11.969 2.93722 14.1899 2.93722 16.9295L2.93722 18.9659Z"/>
+                </svg>
+            </a>
+        </li>
+        {{ $current := . }}
+        {{ range .Site.Menus.main }}
+        {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
+        {{ $active = or $active (eq .Name $current.Title) }}
+        {{ $active = or $active (and (eq .Name "notes") (eq $current.Section "post")) }}
+        <li>
+            <a data-tooltip="{{ .Identifier }}" href="{{ .URL }}" class="{{ if $active }}is-active{{ end }}" {{ if eq .Params.external true }}target="_blank" rel="noopener noreferrer"{{ end }} >
+                {{ .Pre }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
