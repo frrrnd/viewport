@@ -1,0 +1,13 @@
+---
+title: "Adicionando To-dos ou Eventos no calendário"
+date: 2023-11-07T18:18:20-03:00
+draft: false
+type: "post"
+layout: "single"
+tags: ['App']
+source: "X"
+source_link: "https://twitter.com/adrianspiegelt/status/1663833721080774658/photo/1"
+media: "/uploads/twitter.com_Fxcf6kAX0AAwrVt.jpeg"
+media_type: "image"
+---
+
