@@ -8,6 +8,6 @@ tags: ['']
 source: "X"
 source_link: ""
 media: "/uploads/"
-media_type: ""
+media_type: "video"
 ---
 
