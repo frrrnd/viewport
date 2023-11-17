@@ -5,15 +5,11 @@
 }
 
 :root {
-    --background-color: #171717;
-    --primary-text-color: #FFFFFF;
-    --secondary-text-color: #898989;
-    --wrap-width: 600px;
-}
-
-::selection {
-    background-color: rgba(26,26,26,1);
-    color: var(--secondary-text-color);
+    --background-color: #181818;
+    --primary-text-color: #FFF;
+    --secondary-text-color: #C7C7C7;
+    --post-background: #101010;
+    --wrap-width: 650px;
 }
 
 html {
@@ -27,12 +23,14 @@ body {
     background-color: var(--background-color);
     color: var(--primary-text-color);
     font-family: 'Inter', sans-serif;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .wrap {
     max-width: var(--wrap-width);
     width: 100%;
-    margin: 0 auto;
 }
 
 h1,h2 {
@@ -44,12 +42,12 @@ h1,h2 {
 h1 {
     font-weight: 500;
     margin-bottom: 16px;
-    font-size: 64px;
+    font-size: 20px;
 }
 
 h2 {
     color: var(--secondary-text-color);
-    font-size: 16px;
+    font-size: 14px;
 }
 
 a {
@@ -88,12 +86,23 @@ hr {
 
 .header {
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(100vh - 15vh);
 }
 
 .header a {
     display: block;
     max-width: max-content;
     width: 100%;
+    color: inherit;
+
+    & i {
+        display: inline-block;
+        margin-right: 12px;
+    }
 }
 
 .header svg {
@@ -107,190 +116,51 @@ hr {
     line-height: 1.5;
 }
 
-@media (max-width: 610px) {
-    .header h2 {
-        max-width: 100%;
-    }
-}
-
-.headline {
-    padding: 8vh 0;
-}
-
-.button-group {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 24px;
-}
-
-.button-group a {
-    margin-right: 24px;
-    font-size: 14px;
-    /* background-color: #252525;
-    border: 1px solid #2b2b2b; */
-    color: white;
-    /* padding: 8px 12px; */
-    border-radius: 12px;
-    transition: .4s;
-    display: flex;
-    align-items: center;
-}
-
-.button-group a svg {
-    margin-right: 8px;
-}
-
-.button-group a:hover {
-    opacity: .6;
-    transition: .4s;
-}
-
-/* Side nav */
-.side__navigation {
-    background-color: #252525;
-    position: fixed;
-    left: 24px;
-    top: 40%;
-    border-radius: 14px;
-    border: 1px solid #2b2b2b;
-}
-
-.side__navigation ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px;
-    margin: 8px 0;
-}
-
-.side__navigation li {
-    max-width: 36px;
-    height: 36px;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.side__navigation li:not(:last-child) {
-    margin: 0 0 8px 0;
-}
-
-.side__navigation li:not(:last-child) svg {
-    fill: #7D7D7D;
-}
-
-.side__navigation li:last-child {
-    margin: 8px 0 0 0;
-}
-
-.side__navigation li:last-child:before {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #393939;
-    display: block;
-    position: absolute;
-    top: -8px;
-}
-
-.side__navigation svg {
-    width: 20px;
-    height: 20px;
-    transition: .4s;
-}
-
-.side__navigation li:not(:last-child) a:hover svg {
-    transition: .4s;
-    fill: white;
-}
-
-.side__navigation li:last-child svg path {
-    transition: .4s;
-}
-
-.side__navigation li:last-child a:hover svg path {
-    stroke: white;
-    transition: .4s;
-}
-
-.side__navigation .is-active svg {
-    fill: white!important;
-}
-
-.side__navigation a {
-    position: relative;
-}
-
-.side__navigation a:hover:after {
-    opacity: 1;
-    transition: .4s;
-}
-
-.side__navigation a:after {
-    content: attr(data-tooltip);
-    position: absolute;
-    width: max-content;
-    left: 150%;
-    opacity: 0;
-    background: #111;
-    padding: 8px;
-    font-size: 12px;
-    color: white;
-    top: -4px;
-    border-radius: 10px;
-    transition: .4s;
-}
-
-@media (max-width: 610px) {
-    .side__navigation {
-        bottom: 10px;
-        top: auto;
-        left: 0;
-        right: 0;
-        margin-left: auto;
-        margin-right: auto;
-        width: max-content;
-        height: 50px;
-    }
-
-    .side__navigation ul {
-        flex-direction: row;
-        width: 100%;
-        height: auto;
-    }
-
-    .side__navigation li {
-        justify-content: space-between;
-        margin: 0 16px!important;
-    }
-
-    .side__navigation li:last-child:before {
-        content: none;
-    }
-}
-
 /* home */
+
+.aside,
+.content {
+    padding-top: 10vh;
+}
 
 .content {
     width: 100%;
+    max-width: 65%;
 }
 
 /* post */
 .post {
-    border-bottom: 1px solid rgba(255,255,255,.1);
-    padding: 24px 0 16px 0;
+    margin-bottom: 5vh;
+    padding: 0 16px;
 }
 
-.post__header {
+.post__inner {
+}
+
+.post__header, 
+.post__footer {
+    max-width: calc(var(--wrap-width) - 60px);
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 16px;
+    margin: 0 auto;
+    padding: 22px;
+    background: url(../images/wild-oliva.png) repeat var(--post-background);
+}
+
+.post__header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 1px 0px 0px rgba(103, 103, 103, 0.25) inset;
+    position: relative;
+}
+
+.post__footer {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(18, 18, 18, 0.38);
 }
 
 .post__header a {
@@ -302,21 +172,33 @@ hr {
 
 .post__header h3 {
     margin: 0;
+    color: var(--primary-text-color);
+    font-weight: 500;
 }
 
 .post__header time {
     color: var(--secondary-text-color);
     font-size: 12px;
+    background: linear-gradient(180deg, #242424 0%, #1B1B1B 100%);
+    color: #929292;
+    box-shadow: 0px 1px 0px 0px rgba(103, 103, 103, 0.25) inset, 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    position: absolute;
+    padding: 8px;
+    right: 20px;
+    top: -5px;
+    border-radius: 4px;
 }
 
 .post__meta {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .post__meta a svg path {
     transition: .4s;
+    fill: #838383;
 }
 
 .post__meta a:hover svg path {
@@ -333,7 +215,9 @@ hr {
 
 .post__content--tags li {
     margin-right: 8px;
-    background-color: rgba(26,26,26,1);
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px 0px #13151A inset;
+    border-bottom: 1px solid #353535;
     padding: 8px;
     border-radius: 10px;
     font-size: 14px;
@@ -343,9 +227,38 @@ hr {
 .post__media img,
 .post__media video {
     border-radius: 10px;
-    border: 1px solid rgba(255,255,255,.1);
     max-width: 100%;
     height: auto;
+    margin-bottom: -5px;
+    background-color: var(--post-background);
+    box-shadow: 0px 10px 10px 0px rgba(18, 18, 18, 0.38);
+    border: 1px solid #1e1e1e;
+}
+
+.post__content {
+    max-width: calc(var(--wrap-width) - 60px);
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/wild-oliva.png) repeat var(--post-background) 200% 200%;
+
+    & a {
+        color: var(--primary-text-color);
+        text-decoration: underline;
+    }
+}
+
+.post__content p {
+    padding: 22px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.highlight {
+    background-color: #2B2D38;
+}
+
+.highlight pre {
+    padding: 16px;
 }
 
 /* footer */
@@ -417,13 +330,6 @@ hr {
     font-weight: 600;
 }
 
-@media screen and (max-width: 610px) {
-    .wrap {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}
-
 #custom-substack-embed {
     display: flex;
     justify-content: center;
@@ -435,3 +341,174 @@ hr {
 #disqus_thread {
     margin-top: 16px;
 }
+
+/* aside */
+.aside {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+
+    & .aside__inner {
+        position: fixed;
+        height: 100%;
+        padding: 0 32px;
+        display: flex;
+        justify-content: end;
+    }
+}
+
+.footline__links {
+    list-style-type: none;
+    padding-left: 0;
+
+    & li {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 26px;
+        font-size: 15px;
+    }
+
+    & a {
+        display: flex;
+        align-items: center;
+        color: var(--secondary-text-color);
+        transition: .4s;
+    }
+
+    & a:hover {
+        transition: .4s;
+        color: var(--primary-text-color);
+    }
+
+    & i {
+        display: flex!important;
+        background-color: #323232;
+        border: 1px solid #181818;
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.nav-button {
+    & a {
+        background: url(../images/wild-oliva.png) repeat var(--post-background);
+        box-shadow: 0px 1px 0px 0px rgba(103, 103, 103, 0.25) inset, 0px 10px 10px 0px rgba(18, 18, 18, 0.38);
+        padding: 16px;
+        border-radius: 10px;
+        display: flex;
+        transition: .4s;
+        color: var(--primary-text-color);
+    }
+
+    & a:hover {
+        transform: translateY(-5px);
+        transition: .4s;
+    }
+
+    & i {
+        background: linear-gradient(180deg, #202020 0%, #1C1C1C 100%);
+        box-shadow: 0px 1px 0px 0px #343434 inset;
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    & .label {
+        display: flex;
+        flex-direction: column;
+
+        & span {
+            font-weight: 500;
+        }
+    }
+
+    & small {
+        color: var(--secondary-text-color);
+        margin-top: 4px;
+    }
+}
+
+.closeMenu {
+    -webkit-appearance: none;
+    background: url(../images/wild-oliva.png) repeat var(--post-background);
+    color: var(--primary-text-color);
+    border: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.openMenu {
+    -webkit-appearance: none;
+    background: url(../images/wild-oliva.png) repeat var(--post-background);
+    color: var(--primary-text-color);
+    border: none;
+    font-size: 24px;
+    display: flex;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 15px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        max-width: 100%;
+    }
+
+    .wrap {
+        margin: 0 auto;
+    }
+
+    .aside {
+        transform: translateX(-100%);
+        transition: .4s;
+        position: fixed;
+        left: 0;
+        top: 0;
+        max-width: 50%;
+        z-index: 5;
+        background-color: var(--background-color);
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+    .header h2 {
+        max-width: 100%;
+    }
+}
+
+.menuOpened {
+    transform: translateX(0);
+    transition: .4s;
+}
+
+@media (min-width: 769px) {
+    .aside {
+        position: relative;
+        max-width: 35%;
+    }
+
+    .openMenu, .closeMenu {
+        display: none;
+    }
+}
+
