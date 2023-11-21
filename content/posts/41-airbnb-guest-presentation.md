@@ -1,0 +1,13 @@
+---
+title: "Nova visualização do Airbnb"
+date: 2023-11-19T09:01:28-03:00
+draft: false
+type: "post"
+layout: "single"
+tags: ['App']
+source: "X"
+source_link: "https://twitter.com/avstorm/status/1722251158012744126"
+media: "/uploads/twitter.com_91zKbBZ8KlDOYXKn.mp4"
+media_type: "video"
+---
+
