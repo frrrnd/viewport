@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Viewport UI - Uma coleção curada de experiências em UI.</title>
+    <link>https://viewport-ui.design/tags/</link>
+    <description>Recent content in Tags on Viewport UI - Uma coleção curada de experiências em UI.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2023 11:35:06 -0300</lastBuildDate><atom:link href="https://viewport-ui.design/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desktop</title>
+      <link>https://viewport-ui.design/tags/desktop/</link>
+      <pubDate>Tue, 14 Nov 2023 11:35:06 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/tags/desktop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://viewport-ui.design/tags/web/</link>
+      <pubDate>Tue, 14 Nov 2023 11:35:06 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App</title>
+      <link>https://viewport-ui.design/tags/app/</link>
+      <pubDate>Mon, 13 Nov 2023 18:42:40 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/tags/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>https://viewport-ui.design/tags/css/</link>
+      <pubDate>Thu, 09 Nov 2023 13:31:54 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skeuomorphic</title>
+      <link>https://viewport-ui.design/tags/skeuomorphic/</link>
+      <pubDate>Mon, 23 Oct 2023 16:30:33 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/tags/skeuomorphic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

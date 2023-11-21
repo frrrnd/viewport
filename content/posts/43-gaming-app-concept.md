@@ -8,6 +8,6 @@ tags: ['App']
 source: "X"
 source_link: "https://twitter.com/MichaelFilipiuk/status/1725098914418958746/photo/1"
 media: "/uploads/twitter.com_F_DIUPTbwAE2Ymd.jpeg"
-media_type: "video"
+media_type: "image"
 ---
 

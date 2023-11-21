@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Viewport UI - Uma coleção curada de experiências em UI.</title>
+    <link>https://viewport-ui.design/tags/web/</link>
+    <description>Recent content in Web on Viewport UI - Uma coleção curada de experiências em UI.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2023 11:35:06 -0300</lastBuildDate><atom:link href="https://viewport-ui.design/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interface de controle de transito</title>
+      <link>https://viewport-ui.design/posts/24-control-interface/</link>
+      <pubDate>Tue, 14 Nov 2023 11:35:06 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/24-control-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conceito de menu dropdown</title>
+      <link>https://viewport-ui.design/posts/22-menu-pop-up/</link>
+      <pubDate>Sun, 12 Nov 2023 19:47:51 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/22-menu-pop-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conceito visual de site</title>
+      <link>https://viewport-ui.design/posts/20-fons-mans-exploration/</link>
+      <pubDate>Fri, 10 Nov 2023 15:39:33 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/20-fons-mans-exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blur progressivo em CSS</title>
+      <link>https://viewport-ui.design/posts/19-gradient-blur-css/</link>
+      <pubDate>Thu, 09 Nov 2023 13:31:54 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/19-gradient-blur-css/</guid>
+      <description>Os CSS é apenas um backdrop-filter e um mask-image:
+.blur { backdrop-filter: blur(40px); mask-image: linear-gradient(to bottom, transparent 25%, black 75%); } Por: @joeydi.</description>
+    </item>
+    
+    <item>
+      <title>Widget Cards para Atividade Física</title>
+      <link>https://viewport-ui.design/posts/17-workout-widgets/</link>
+      <pubDate>Wed, 08 Nov 2023 11:57:24 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/17-workout-widgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface de Doações</title>
+      <link>https://viewport-ui.design/posts/13-donation-goal-ui/</link>
+      <pubDate>Fri, 27 Oct 2023 15:58:37 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/13-donation-goal-ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detalhes de Interface</title>
+      <link>https://viewport-ui.design/posts/12-element-drag-details/</link>
+      <pubDate>Thu, 26 Oct 2023 16:02:26 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/12-element-drag-details/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animação de Mega Nav</title>
+      <link>https://viewport-ui.design/posts/11-mega-nav-animation-color/</link>
+      <pubDate>Wed, 25 Oct 2023 16:05:02 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/11-mega-nav-animation-color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Componente de Medida</title>
+      <link>https://viewport-ui.design/posts/10-measure-status-bar/</link>
+      <pubDate>Tue, 24 Oct 2023 16:06:51 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/10-measure-status-bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skeuomorphic Player</title>
+      <link>https://viewport-ui.design/posts/09-skeuomorphic-player/</link>
+      <pubDate>Mon, 23 Oct 2023 16:30:33 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/09-skeuomorphic-player/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Select Dropdown</title>
+      <link>https://viewport-ui.design/posts/06-select-badge-dropdown/</link>
+      <pubDate>Fri, 20 Oct 2023 16:15:43 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/06-select-badge-dropdown/</guid>
+      <description>Input Select com badges, e dropdown aberto.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio Wii</title>
+      <link>https://viewport-ui.design/posts/05-portfolio-wii/</link>
+      <pubDate>Thu, 05 Oct 2023 10:36:24 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/05-portfolio-wii/</guid>
+      <description>Portfolio com a interface do Wii.</description>
+    </item>
+    
+    <item>
+      <title>Menu de navegação</title>
+      <link>https://viewport-ui.design/posts/03-navegacao-sidebar/</link>
+      <pubDate>Thu, 05 Oct 2023 10:31:05 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/03-navegacao-sidebar/</guid>
+      <description>Navegação na barra lateral.</description>
+    </item>
+    
+    <item>
+      <title>Backdrop Realista</title>
+      <link>https://viewport-ui.design/posts/02-backdrop-realista/</link>
+      <pubDate>Thu, 05 Oct 2023 10:26:47 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/02-backdrop-realista/</guid>
+      <description>Reflexo no backdrop realista.</description>
+    </item>
+    
+  </channel>
+</rss>

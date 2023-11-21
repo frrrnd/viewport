@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viewport UI - Uma coleção curada de experiências em UI.</title>
+    <link>https://viewport-ui.design/</link>
+    <description>Recent content on Viewport UI - Uma coleção curada de experiências em UI.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2023 11:35:06 -0300</lastBuildDate><atom:link href="https://viewport-ui.design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interface de controle de transito</title>
+      <link>https://viewport-ui.design/posts/24-control-interface/</link>
+      <pubDate>Tue, 14 Nov 2023 11:35:06 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/24-control-interface/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>App de Hábitos com Streak</title>
+      <link>https://viewport-ui.design/posts/23-streaks-app/</link>
+      <pubDate>Mon, 13 Nov 2023 18:42:40 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/23-streaks-app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conceito de menu dropdown</title>
+      <link>https://viewport-ui.design/posts/22-menu-pop-up/</link>
+      <pubDate>Sun, 12 Nov 2023 19:47:51 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/22-menu-pop-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conceito de app de gravação de áudio</title>
+      <link>https://viewport-ui.design/posts/21-roland-recorder/</link>
+      <pubDate>Sat, 11 Nov 2023 15:45:18 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/21-roland-recorder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conceito visual de site</title>
+      <link>https://viewport-ui.design/posts/20-fons-mans-exploration/</link>
+      <pubDate>Fri, 10 Nov 2023 15:39:33 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/20-fons-mans-exploration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blur progressivo em CSS</title>
+      <link>https://viewport-ui.design/posts/19-gradient-blur-css/</link>
+      <pubDate>Thu, 09 Nov 2023 13:31:54 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/19-gradient-blur-css/</guid>
+      <description>Os CSS é apenas um backdrop-filter e um mask-image:
+.blur { backdrop-filter: blur(40px); mask-image: linear-gradient(to bottom, transparent 25%, black 75%); } Por: @joeydi.</description>
+    </item>
+    
+    <item>
+      <title>Reconhecimento de música do Shazam</title>
+      <link>https://viewport-ui.design/posts/18-music-shazam/</link>
+      <pubDate>Thu, 09 Nov 2023 13:27:18 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/18-music-shazam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Widget Cards para Atividade Física</title>
+      <link>https://viewport-ui.design/posts/17-workout-widgets/</link>
+      <pubDate>Wed, 08 Nov 2023 11:57:24 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/17-workout-widgets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home e Bottom Sheet do aplicativo Haptic</title>
+      <link>https://viewport-ui.design/posts/16-home-bottom-sheet/</link>
+      <pubDate>Tue, 07 Nov 2023 15:18:20 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/16-home-bottom-sheet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adicionando To-dos ou Eventos no calendário</title>
+      <link>https://viewport-ui.design/posts/15-calendar-todo-sheet-copy/</link>
+      <pubDate>Mon, 06 Nov 2023 18:18:20 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/15-calendar-todo-sheet-copy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface de Gravação</title>
+      <link>https://viewport-ui.design/posts/14-carlhauser-f1/</link>
+      <pubDate>Sun, 05 Nov 2023 15:58:37 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/14-carlhauser-f1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interface de Doações</title>
+      <link>https://viewport-ui.design/posts/13-donation-goal-ui/</link>
+      <pubDate>Fri, 27 Oct 2023 15:58:37 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/13-donation-goal-ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detalhes de Interface</title>
+      <link>https://viewport-ui.design/posts/12-element-drag-details/</link>
+      <pubDate>Thu, 26 Oct 2023 16:02:26 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/12-element-drag-details/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Animação de Mega Nav</title>
+      <link>https://viewport-ui.design/posts/11-mega-nav-animation-color/</link>
+      <pubDate>Wed, 25 Oct 2023 16:05:02 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/11-mega-nav-animation-color/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Componente de Medida</title>
+      <link>https://viewport-ui.design/posts/10-measure-status-bar/</link>
+      <pubDate>Tue, 24 Oct 2023 16:06:51 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/10-measure-status-bar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skeuomorphic Player</title>
+      <link>https://viewport-ui.design/posts/09-skeuomorphic-player/</link>
+      <pubDate>Mon, 23 Oct 2023 16:30:33 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/09-skeuomorphic-player/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS X Dashboard</title>
+      <link>https://viewport-ui.design/posts/08-macos-osx-dashboard/</link>
+      <pubDate>Sun, 22 Oct 2023 16:26:01 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/08-macos-osx-dashboard/</guid>
+      <description>Antiga dashboard do Mac OS X, no estilo skeuomorphic.</description>
+    </item>
+    
+    <item>
+      <title>Slider f-stop</title>
+      <link>https://viewport-ui.design/posts/07-camera-f-stop/</link>
+      <pubDate>Sat, 21 Oct 2023 16:23:13 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/07-camera-f-stop/</guid>
+      <description>Slider para ajustar o f-stop da camera.</description>
+    </item>
+    
+    <item>
+      <title>Select Dropdown</title>
+      <link>https://viewport-ui.design/posts/06-select-badge-dropdown/</link>
+      <pubDate>Fri, 20 Oct 2023 16:15:43 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/06-select-badge-dropdown/</guid>
+      <description>Input Select com badges, e dropdown aberto.</description>
+    </item>
+    
+    <item>
+      <title>Portfolio Wii</title>
+      <link>https://viewport-ui.design/posts/05-portfolio-wii/</link>
+      <pubDate>Thu, 05 Oct 2023 10:36:24 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/05-portfolio-wii/</guid>
+      <description>Portfolio com a interface do Wii.</description>
+    </item>
+    
+    <item>
+      <title>Emails restantes</title>
+      <link>https://viewport-ui.design/posts/04-emails-restantes/</link>
+      <pubDate>Thu, 05 Oct 2023 10:34:05 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/04-emails-restantes/</guid>
+      <description>Páginas de emails restantes.</description>
+    </item>
+    
+    <item>
+      <title>Menu de navegação</title>
+      <link>https://viewport-ui.design/posts/03-navegacao-sidebar/</link>
+      <pubDate>Thu, 05 Oct 2023 10:31:05 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/03-navegacao-sidebar/</guid>
+      <description>Navegação na barra lateral.</description>
+    </item>
+    
+    <item>
+      <title>Backdrop Realista</title>
+      <link>https://viewport-ui.design/posts/02-backdrop-realista/</link>
+      <pubDate>Thu, 05 Oct 2023 10:26:47 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/02-backdrop-realista/</guid>
+      <description>Reflexo no backdrop realista.</description>
+    </item>
+    
+    <item>
+      <title>Path Menu Interação</title>
+      <link>https://viewport-ui.design/posts/01-path-menu-interacao/</link>
+      <pubDate>Thu, 05 Oct 2023 10:20:48 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/posts/01-path-menu-interacao/</guid>
+      <description>Interação de menu como no finado Path.</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>https://viewport-ui.design/sobre/</link>
+      <pubDate>Wed, 20 Sep 2023 15:05:09 -0300</pubDate>
+      
+      <guid>https://viewport-ui.design/sobre/</guid>
+      <description>Inspiração pode ser encontrada em qualquer lugar.
+Ela está nos olhos de quem observa, e não no sujeito que é observado.
+Como designers, nós aprendemos a desenvolver nossa percepção sobre o mundo, e tudo o que está ao nosso redor, em busca de inspiração. Nas palavras de Rick Rubin, “[um artista deve] procurar pelo que somente ele nota, e ninguém mais consegue ver”.
+Muitas vezes, esse aprendizado vem através das lições que encontramos no trabalho de nossos colegas designers.</description>
+    </item>
+    
+  </channel>
+</rss>
