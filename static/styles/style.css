@@ -489,6 +489,35 @@ hr {
     padding: 5px 15px;
 }
 
+/* Pagination */
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: .675rem;
+
+  margin-bottom: 4rem;
+}
+
+.pagination .page-item a {
+  color: white;
+  font-size: .875rem;
+  line-height: 1;
+
+  padding: 1rem .125rem;
+
+  opacity: .4;
+}
+
+.pagination .page-item.disabled a {
+  opacity: .1;
+}
+
+.pagination .page-item.active a {
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
     .content {
         max-width: 100%;
