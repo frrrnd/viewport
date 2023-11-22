@@ -2,7 +2,8 @@
     <div class="wrap">
         <button id="openMenu" class="openMenu">&equiv;</button>
 
-    {{ range (where .Site.Pages "Params.type" "post") }}
+    {{ $paginator := .Paginate (where .Site.Pages "Params.type" "post") }}
+    {{ range $paginator.Pages }}
     <article class="post">
         <div class="post__inner">
             <header role="banner" class="post__header">
@@ -12,7 +13,7 @@
                 </a>
             </header>
 
-            <div class="post__media">
+            <div class="post__media" data-media="{{ .Params.media }}" data-type="{{ .Params.media_type }}">
                 {{ if eq .Params.media_type "image" }}
                     <img src="{{ .Params.media }}" alt="{{ .Title }}">
                 {{ else }}
@@ -39,5 +40,7 @@
         </div>
     </article>
 	{{ end }}
+
+  {{ template "_internal/pagination.html" . }}
     </div>
 </main>

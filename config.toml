@@ -2,7 +2,6 @@
 baseURL = 'https://viewport-ui.design/'
 languageCode = 'en-us'
 title = 'Viewport UI - Uma coleção curada de experiências em UI.'
-disqusShortname = 'viewport-ui'
 
 [menu]
     [[menu.main]]
