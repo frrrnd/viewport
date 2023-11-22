@@ -12,7 +12,7 @@
                 </a>
             </header>
 
-            <div class="post__media">
+            <div class="post__media" data-media="{{ .Params.media }}" data-type="{{ .Params.media_type }}">
                 {{ if eq .Params.media_type "image" }}
                     <img src="{{ .Params.media }}" alt="{{ .Title }}">
                 {{ else }}
