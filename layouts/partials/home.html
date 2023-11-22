@@ -2,7 +2,8 @@
     <div class="wrap">
         <button id="openMenu" class="openMenu">&equiv;</button>
 
-    {{ range (where .Site.Pages "Params.type" "post") }}
+    {{ $paginator := .Paginate (where .Site.Pages "Params.type" "post") }}
+    {{ range $paginator.Pages }}
     <article class="post">
         <div class="post__inner">
             <header role="banner" class="post__header">
@@ -39,5 +40,7 @@
         </div>
     </article>
 	{{ end }}
+
+  {{ template "_internal/pagination.html" . }}
     </div>
 </main>
