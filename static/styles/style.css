@@ -270,6 +270,11 @@ hr {
     font-size: 15px;
 }
 
+.post__content ul {
+  margin: 0;
+  margin-block-end: 0;
+}
+
 .highlight {
     background-color: #2B2D38;
 }
