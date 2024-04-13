@@ -1,5 +1,5 @@
 ---
-title: "Interface de Doações"
+title: "Donation interface component"
 date: 2023-10-27T15:58:37-03:00
 draft: false
 type: "post"

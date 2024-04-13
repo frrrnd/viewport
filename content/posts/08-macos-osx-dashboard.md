@@ -10,5 +10,3 @@ source_link: "https://twitter.com/BasicAppleGuy/status/1711025116958851432/photo
 media: "/uploads/twitter.com_F77H71RbcAA_3LC.jpeg"
 media_type: "image"
 ---
-
-Antiga dashboard do Mac OS X, no estilo skeuomorphic.

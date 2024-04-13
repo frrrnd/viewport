@@ -1,5 +1,5 @@
 ---
-title: "Widget Cards para Atividade Física"
+title: "Workout widgets"
 date: 2023-11-08T11:57:24-03:00
 draft: false
 type: "post"

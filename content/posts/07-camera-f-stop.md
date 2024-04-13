@@ -11,4 +11,4 @@ media: "/uploads/twitter.com_F9DwS2PXAAAC3JU.jpeg"
 media_type: "image"
 ---
 
-Slider para ajustar o f-stop da camera.
+Slider to adjust the camera f-stop.
