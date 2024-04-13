@@ -1,5 +1,5 @@
 ---
-title: "Componente de Medida"
+title: "Scale component for writing"
 date: 2023-10-24T16:06:51-03:00
 draft: false
 type: "post"

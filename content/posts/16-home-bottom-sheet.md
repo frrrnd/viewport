@@ -1,5 +1,5 @@
 ---
-title: "Home e Bottom Sheet do aplicativo Haptic"
+title: "Home and bottom sheet explorations for the Haptic app"
 date: 2023-11-07T15:18:20-03:00
 draft: false
 type: "post"

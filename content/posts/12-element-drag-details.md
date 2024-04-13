@@ -1,5 +1,5 @@
 ---
-title: "Detalhes de Interface"
+title: "Interface details"
 date: 2023-10-26T16:02:26-03:00
 draft: false
 type: "post"

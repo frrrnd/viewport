@@ -1,5 +1,5 @@
 ---
-title: "Reconhecimento de música do Shazam"
+title: "Music Recognition animation by Shazam"
 date: 2023-11-09T13:27:18-03:00
 draft: false
 type: "post"

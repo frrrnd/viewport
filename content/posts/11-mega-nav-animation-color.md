@@ -1,5 +1,5 @@
 ---
-title: "Animação de Mega Nav"
+title: "Mega nav animation"
 date: 2023-10-25T16:05:02-03:00
 draft: false
 type: "post"
