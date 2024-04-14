@@ -1,5 +1,5 @@
 ---
-title: "Histórico de clipboard"
+title: "Clipboard history"
 date: 2024-04-10T11:19:08-03:00
 draft: false
 type: "post"

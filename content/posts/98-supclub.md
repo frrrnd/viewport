@@ -1,5 +1,5 @@
 ---
-title: "Design para o site do Supclub"
+title: "Subclub's website design"
 date: 2024-04-11T23:03:00-03:00
 draft: false
 type: "post"

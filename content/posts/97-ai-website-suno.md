@@ -1,5 +1,5 @@
 ---
-title: "Website da plataforma de AI Suno"
+title: "Suno AI's website"
 date: 2024-04-10T21:03:15-03:00
 draft: false
 type: "post"
