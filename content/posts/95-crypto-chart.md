@@ -1,5 +1,5 @@
 ---
-title: "Gráficos para site de crypto"
+title: "Crypto charts for a website"
 date: 2024-04-10T20:59:06-03:00
 draft: false
 type: "post"

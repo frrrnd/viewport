@@ -1,5 +1,5 @@
 ---
-title: "Motion e 3D em template do Framer"
+title: "3D and Motion for a Framer template"
 date: 2024-04-10T20:57:29-03:00
 draft: false
 type: "post"

@@ -1,5 +1,5 @@
 ---
-title: "Drag-and-drop do app Strut"
+title: "Drag-and-drop for the Strut app"
 date: 2024-04-11T23:04:59-03:00
 draft: false
 type: "post"
