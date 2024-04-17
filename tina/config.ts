@@ -1,4 +1,4 @@
-import { defineConfig } from "tinacms";
+import { TinaSchema, defineConfig } from "tinacms";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -32,6 +32,19 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
+        defaultItem: () => {
+          return {
+            title: "Title",
+            date: new Date(),
+            draft: true,
+            type: "post",
+            layout: "single",
+            tags: ['Web', 'App'],
+            source: "X",
+            media_type: "image",
+            media: "/uploads/"
+          }
+        },
         fields: [
           {
             type: "string",
@@ -51,6 +64,9 @@ export default defineConfig({
             name: "date",
             label: "Published Date",
             required: true,
+            ui: {
+              timeFormat: "HH:mm"
+            },
           },
           {
             type: "boolean",
@@ -82,6 +98,24 @@ export default defineConfig({
             name: "source",
             label: "Source",
             required: true,
+            options: [
+              {
+                value: "X",
+                label: "X",
+              },
+              {
+                value: "Layers",
+                label: "Layers",
+              },
+              {
+                value: "Dribbble",
+                label: "Dribbble",
+              },
+              {
+                value: "Behance",
+                label: "Behance",
+              },
+            ]
           },
           {
             type: "string",
@@ -90,7 +124,7 @@ export default defineConfig({
             required: true,
           },
           {
-            type: "image",
+            type: "string",
             name: "media",
             label: "Media",
             required: true,
@@ -100,6 +134,16 @@ export default defineConfig({
             name: "media_type",
             label: "Media Type",
             required: true,
+            options: [
+              {
+                value: "image",
+                label: "Image",
+              },
+              {
+                value: "video",
+                label: "Video",
+              },
+            ]
           },
         ],
       },
