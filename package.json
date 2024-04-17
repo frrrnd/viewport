@@ -1,0 +1,20 @@
+{
+  "name": "viewport",
+  "version": "1.0.0",
+  "description": "## Managing Content",
+  "main": "index.js",
+  "scripts": {
+    "tina": "npx tinacms dev -c 'hugo server -D -p 1313' --datalayer-port 9001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tinacms": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.43",
+    "@types/node": "^20.12.7"
+  }
+}
