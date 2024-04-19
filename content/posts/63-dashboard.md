@@ -1,5 +1,6 @@
 ---
 title: "Dashboard de E-Commerce"
+author: miaa_design
 date: 2024-01-07T11:48:10-03:00
 draft: false
 type: "post"

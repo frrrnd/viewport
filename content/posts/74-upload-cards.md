@@ -1,5 +1,6 @@
 ---
 title: "Experiência de drag-and-drop"
+author: ronin
 date: 2024-04-07T16:55:59-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Music Recognition animation by Shazam"
+author: hckmstrrahul
 date: 2023-11-09T13:27:18-03:00
 draft: false
 type: "post"

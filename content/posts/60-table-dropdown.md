@@ -1,5 +1,6 @@
 ---
 title: "Componentes de Tabela"
+author: jamesm
 date: 2024-01-06T17:56:27-03:00
 draft: false
 type: "post"

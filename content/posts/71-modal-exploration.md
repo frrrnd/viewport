@@ -1,5 +1,6 @@
 ---
 title: "Exploração de Modal"
+author: Nomandsign
 date: 2024-04-06T16:49:43-03:00
 draft: false
 type: "post"

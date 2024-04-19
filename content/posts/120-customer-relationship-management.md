@@ -1,5 +1,6 @@
 ---
 title: Customer relationship management
+author: sergushkin
 date: 2024-04-18T19:09:11.056Z
 draft: false
 type: post

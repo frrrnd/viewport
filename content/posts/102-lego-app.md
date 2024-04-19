@@ -1,5 +1,6 @@
 ---
 title: "App to get instructions on building Lego"
+author: JPEGuin
 date: 2024-04-13T20:30:12-03:00
 draft: false
 type: "post"

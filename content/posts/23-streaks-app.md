@@ -1,5 +1,6 @@
 ---
 title: "App de Hábitos com Streak"
+author: degisner
 date: 2023-11-13T18:42:40-03:00
 draft: false
 type: "post"

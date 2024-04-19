@@ -1,5 +1,6 @@
 ---
 title: "Conceito de um app de jogos"
+author: MichaelFilipiuk
 date: 2023-11-19T02:13:49-03:00
 draft: false
 type: "post"

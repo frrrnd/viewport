@@ -1,5 +1,6 @@
 ---
 title: "Cards Kanban em Light Mode"
+author: Keviduk
 date: 2023-11-17T09:16:41-03:00
 draft: false
 type: "post"

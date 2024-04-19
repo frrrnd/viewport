@@ -1,5 +1,6 @@
 ---
 title: "MacOS X Dashboard"
+author: BasicAppleGuy
 date: 2023-10-22T16:26:01-03:00
 draft: false
 type: "post"

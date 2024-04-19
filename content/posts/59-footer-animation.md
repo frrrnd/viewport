@@ -1,5 +1,6 @@
 ---
 title: "Animação de footer"
+author: alex_barashkov
 date: 2024-01-05T10:08:01-03:00
 draft: false
 type: "post"

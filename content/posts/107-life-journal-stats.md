@@ -1,5 +1,6 @@
 ---
 title: "Life Journal - All Time Stats"
+author: afonindaniil
 date: 2024-04-14T13:35:50-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Presentation motion"
+author: natkohasic
 date: 2024-04-10T21:02:15-03:00
 draft: false
 type: "post"

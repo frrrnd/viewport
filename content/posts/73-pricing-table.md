@@ -1,5 +1,6 @@
 ---
 title: "Tabela de preço modular"
+author: hejsmalltribe
 date: 2024-04-07T16:54:09-03:00
 draft: false
 type: "post"

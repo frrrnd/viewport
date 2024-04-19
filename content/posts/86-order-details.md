@@ -1,5 +1,6 @@
 ---
 title: "Conceito de detalhes de compra e envio"
+author: UXpetr
 date: 2024-04-08T18:08:17-03:00
 draft: false
 type: "post"

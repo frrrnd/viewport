@@ -1,5 +1,6 @@
 ---
 title: "Drag-and-drop for the Strut app"
+author: JordanMenashy
 date: 2024-04-11T23:04:59-03:00
 draft: false
 type: "post"

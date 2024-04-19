@@ -1,5 +1,6 @@
 ---
 title: "Página de Estudo de Caso"
+author: addisonjames
 date: 2023-11-17T13:19:45-03:00
 draft: false
 type: "post"

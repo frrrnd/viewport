@@ -1,5 +1,6 @@
 ---
 title: Team Management Dashboard
+author: shakuro
 date: 2024-04-18T19:01:58.232Z
 draft: false
 type: post

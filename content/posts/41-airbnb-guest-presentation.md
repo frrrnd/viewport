@@ -1,5 +1,6 @@
 ---
 title: "Nova visualização do Airbnb"
+author: avstorm
 date: 2023-11-19T09:01:28-03:00
 draft: false
 type: "post"

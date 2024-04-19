@@ -1,5 +1,6 @@
 ---
 title: "Blur progressivo em CSS"
+author: joeydi
 date: 2023-11-09T13:31:54-03:00
 draft: false
 type: "post"

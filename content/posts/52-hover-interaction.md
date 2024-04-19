@@ -1,5 +1,6 @@
 ---
 title: "Animação de SVG no hover"
+author: igarcido
 date: 2023-12-20T17:10:39-03:00
 draft: false
 type: "post"

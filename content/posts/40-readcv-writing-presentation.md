@@ -1,5 +1,6 @@
 ---
 title: "Apresentação da nova feature de escrita para o Read.cv"
+author: read_cv
 date: 2023-11-19T01:58:22-03:00
 draft: false
 type: "post"

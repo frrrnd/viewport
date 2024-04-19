@@ -1,5 +1,6 @@
 ---
 title: "Interface de controle de transito"
+author: UXpetr
 date: 2023-11-14T11:35:06-03:00
 draft: false
 type: "post"

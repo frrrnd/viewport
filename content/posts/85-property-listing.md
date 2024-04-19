@@ -1,5 +1,6 @@
 ---
 title: "Conceito responsivo de gerenciamento de propriedades"
+author: nurpraditya
 date: 2024-04-08T18:06:24-03:00
 draft: false
 type: "post"

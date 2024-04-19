@@ -1,5 +1,6 @@
 ---
 title: "Design de recompensas diárias em jogo mobile"
+author: camilleduprat
 date: 2024-04-08T18:00:11-03:00
 draft: false
 type: "post"

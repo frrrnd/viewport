@@ -1,5 +1,6 @@
 ---
 title: "Conceito de modal de “Deletar para sempre”"
+author: nicks_twt
 date: 2024-04-08T18:02:27-03:00
 draft: false
 type: "post"

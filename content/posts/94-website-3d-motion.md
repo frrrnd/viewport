@@ -1,5 +1,6 @@
 ---
 title: "3D and Motion for a Framer template"
+author: hxmzaehsan
 date: 2024-04-10T20:57:29-03:00
 draft: false
 type: "post"

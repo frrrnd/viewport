@@ -1,5 +1,6 @@
 ---
 title: "Website creation, from design, 3D, motion, and dev"
+author: alex_barashkov
 date: 2024-04-13T20:31:16-03:00
 draft: false
 type: "post"
