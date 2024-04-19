@@ -45,6 +45,17 @@ export default defineConfig({
             media: "/uploads/"
           }
         },
+        ui: {
+          filename: {
+            readonly: false,
+            slugify: (values) => {
+              // Values is an object containing all the values of the form. In this case it is {title?: string, topic?: string}
+              return `${values?.title
+                ?.toLowerCase()
+                .replace(/ /g, '-')}`
+            },
+          },
+        },
         fields: [
           {
             type: "string",

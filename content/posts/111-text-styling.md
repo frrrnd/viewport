@@ -7,7 +7,7 @@ tags:
   - Web
 source: X
 source_link: 'https://twitter.com/farrelput/status/1780186372911059120'
-media: /twitter.com_GLRxJcjakAAxM17.jpeg
+media: /uploads/twitter.com_GLRxJcjakAAxM17.jpeg
 media_type: image
 ---
 
