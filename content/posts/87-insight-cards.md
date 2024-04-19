@@ -1,5 +1,6 @@
 ---
 title: "Conceitos de cards com gráficos e insights"
+author: Keviduk
 date: 2024-04-08T18:09:31-03:00
 draft: false
 type: "post"

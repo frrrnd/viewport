@@ -1,5 +1,6 @@
 ---
 title: "Peek-a-boo stats for apps"
+author: radcraftor
 date: 2024-04-14T13:34:10-03:00
 draft: false
 type: "post"

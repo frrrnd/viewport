@@ -1,5 +1,6 @@
 ---
 title: Chart details
+author: usrnk1
 date: 2024-04-19T16:51:51.932Z
 draft: false
 type: post

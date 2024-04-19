@@ -1,5 +1,6 @@
 ---
 title: "Plataforma de Pagamentos"
+author: barlydesign
 date: 2024-04-07T16:51:53-03:00
 draft: false
 type: "post"

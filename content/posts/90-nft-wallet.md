@@ -1,5 +1,6 @@
 ---
 title: "NFT Wallet"
+author: rybin
 date: 2024-04-10T11:15:07-03:00
 draft: false
 type: "post"

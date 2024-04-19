@@ -1,5 +1,6 @@
 ---
 title: "Onboxing Digital para App"
+author: halidecamera
 date: 2024-01-05T09:58:49-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Efeitos de iluminação no hover dos cards"
+author: bartuiux
 date: 2024-04-08T18:11:13-03:00
 draft: false
 type: "post"

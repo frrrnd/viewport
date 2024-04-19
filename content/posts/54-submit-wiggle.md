@@ -1,5 +1,6 @@
 ---
 title: "Interação de “erro” no input"
+author: itsnotchester
 date: 2023-12-20T17:14:34-03:00
 draft: false
 type: "post"

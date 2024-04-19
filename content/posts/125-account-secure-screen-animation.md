@@ -1,5 +1,6 @@
 ---
 title: Account secure screen animation
+author: abazov7x
 date: 2024-04-19T16:54:53.718Z
 draft: false
 type: post

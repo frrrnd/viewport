@@ -1,5 +1,6 @@
 ---
 title: "Exploração de caixa de comentários, com votação"
+author: aliicorak
 date: 2024-04-08T18:05:22-03:00
 draft: false
 type: "post"

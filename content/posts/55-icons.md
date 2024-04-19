@@ -1,5 +1,6 @@
 ---
 title: "Ícones Stroke ou Duotone?"
+author: huge_icons
 date: 2024-01-01T09:52:58-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Modal de confirmação de pagamento"
+author: JimDesignsCo
 date: 2024-04-07T17:25:15-03:00
 draft: false
 type: "post"

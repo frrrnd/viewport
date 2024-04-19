@@ -1,5 +1,6 @@
 ---
 title: "Fluxo de transferência bancária"
+author: ersadwork
 date: 2023-11-16T01:15:54-03:00
 draft: false
 type: "post"

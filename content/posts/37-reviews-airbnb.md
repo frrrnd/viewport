@@ -1,5 +1,6 @@
 ---
 title: "Detalhes de interação da página de Reviews do Airbnb"
+author: bchesky
 date: 2023-11-19T01:52:06-03:00
 draft: false
 type: "post"

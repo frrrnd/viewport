@@ -1,5 +1,6 @@
 ---
 title: "Ferramenta de gerenciamento de projetos"
+author: darylginn
 date: 2024-04-08T17:58:45-03:00
 draft: false
 type: "post"

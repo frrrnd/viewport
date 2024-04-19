@@ -1,5 +1,6 @@
 ---
 title: Concert ticket app
+author: reallyaditya
 date: 2024-04-19T16:53:22.569Z
 draft: false
 type: post

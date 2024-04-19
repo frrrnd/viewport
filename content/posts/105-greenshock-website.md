@@ -1,5 +1,6 @@
 ---
 title: "Motion for the new Greenshock website redesign"
+author: LeighWhipday
 date: 2024-04-14T13:31:44-03:00
 draft: false
 type: "post"

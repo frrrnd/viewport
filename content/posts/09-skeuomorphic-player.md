@@ -1,5 +1,6 @@
 ---
 title: "Skeuomorphic Player"
+author: hckmstrrahul
 date: 2023-10-23T16:30:33-03:00
 draft: false
 type: "post"

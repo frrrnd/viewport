@@ -1,5 +1,6 @@
 ---
 title: BTC Nodes
+author: openpurpose
 date: 2024-04-17T22:31:47.564Z
 draft: false
 type: post

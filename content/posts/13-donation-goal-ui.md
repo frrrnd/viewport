@@ -1,5 +1,6 @@
 ---
 title: "Donation interface component"
+author: ersadwork
 date: 2023-10-27T15:58:37-03:00
 draft: false
 type: "post"

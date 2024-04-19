@@ -1,5 +1,6 @@
 ---
 title: "Conceito de website minimalista"
+author: vaibhav_khulbe
 date: 2023-11-19T01:56:54-03:00
 draft: false
 type: "post"
