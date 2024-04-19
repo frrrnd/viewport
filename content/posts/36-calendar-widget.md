@@ -1,5 +1,6 @@
 ---
 title: "Widget de Calendário no macOS"
+author: daniela_muntyan
 date: 2023-11-17T14:22:08-03:00
 draft: false
 type: "post"

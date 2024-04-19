@@ -1,5 +1,6 @@
 ---
 title: "Protótipo de quem deve a quem"
+author: RoberaGeleta
 date: 2023-11-16T01:18:07-03:00
 draft: false
 type: "post"

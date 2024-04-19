@@ -1,5 +1,6 @@
 ---
 title: "Delete Items"
+author: emilkowalski_
 date: 2024-04-10T11:13:08-03:00
 draft: false
 type: "post"

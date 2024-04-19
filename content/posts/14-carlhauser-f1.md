@@ -1,5 +1,6 @@
 ---
 title: "Recording interface for a radio prototype"
+author: crlhsr
 date: 2023-11-05T15:58:37-03:00
 draft: false
 type: "post"

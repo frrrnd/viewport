@@ -1,5 +1,6 @@
 ---
 title: "Detalhes de possível investimento"
+author: melihozdemir_
 date: 2024-04-07T17:26:48-03:00
 draft: false
 type: "post"

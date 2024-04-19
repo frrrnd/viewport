@@ -1,5 +1,6 @@
 ---
 title: "Mega nav animation"
+author: timestwo_design
 date: 2023-10-25T16:05:02-03:00
 draft: false
 type: "post"

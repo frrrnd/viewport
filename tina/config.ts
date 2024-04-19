@@ -65,6 +65,12 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "author",
+            label: "Author",
+            required: false,
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",

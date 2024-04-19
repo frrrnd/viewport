@@ -1,5 +1,6 @@
 ---
 title: "Efeito no hover do card"
+author: HeyDetya
 date: 2023-11-19T01:54:48-03:00
 draft: false
 type: "post"

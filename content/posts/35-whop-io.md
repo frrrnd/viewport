@@ -1,5 +1,6 @@
 ---
 title: "Ícones gigantes no menu"
+author: jamesm
 date: 2023-11-17T14:12:53-03:00
 draft: false
 type: "post"

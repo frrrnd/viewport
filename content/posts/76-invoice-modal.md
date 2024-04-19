@@ -1,5 +1,6 @@
 ---
 title: "Recibo de cobrança"
+author: HeyDetya
 date: 2024-04-07T17:23:14-03:00
 draft: false
 type: "post"

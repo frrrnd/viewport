@@ -1,5 +1,6 @@
 ---
 title: "Interface para encontrar amigos"
+author: aliicorak
 date: 2023-11-16T19:33:54-03:00
 draft: false
 type: "post"

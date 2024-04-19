@@ -1,5 +1,6 @@
 ---
 title: "Slider f-stop"
+author: stallboerger
 date: 2023-10-21T16:23:13-03:00
 draft: false
 type: "post"

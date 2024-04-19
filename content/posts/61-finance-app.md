@@ -1,5 +1,6 @@
 ---
 title: "Conceito de App de Finanças"
+author: cjpux_
 date: 2024-01-06T17:58:31-03:00
 draft: false
 type: "post"

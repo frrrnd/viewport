@@ -1,5 +1,6 @@
 ---
 title: "Sidebar usando ícones do Pikaicon"
+author: iamsahilvhora
 date: 2024-04-05T16:48:19-03:00
 draft: false
 type: "post"

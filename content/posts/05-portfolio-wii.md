@@ -1,5 +1,6 @@
 ---
 title: "Portfolio with Wii-like interaction"
+author: bvvst
 date: 2023-10-05T10:36:24-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Gestalt website design"
+author: timothyachumba
 date: 2024-04-13T20:33:45-03:00
 draft: false
 type: "post"

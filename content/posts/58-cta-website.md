@@ -1,5 +1,6 @@
 ---
 title: "Detalhes de landing page"
+author: jamesm
 date: 2024-01-05T10:04:27-03:00
 draft: false
 type: "post"

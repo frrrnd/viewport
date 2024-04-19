@@ -1,5 +1,6 @@
 ---
 title: "Interface de pesquisa em dropdown, para Ariakit"
+author: diegohaz
 date: 2024-04-07T17:22:01-03:00
 draft: false
 type: "post"

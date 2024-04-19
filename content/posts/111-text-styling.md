@@ -1,5 +1,6 @@
 ---
 title: Text styling
+author: farrelput
 date: 2024-04-17T03:00:00.000Z
 type: post
 layout: single

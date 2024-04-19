@@ -1,5 +1,6 @@
 ---
 title: "Interface de Kanban"
+author: Keviduk
 date: 2023-11-15T08:14:41-03:00
 draft: false
 type: "post"

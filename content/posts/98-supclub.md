@@ -1,5 +1,6 @@
 ---
 title: "Subclub's website design"
+author: bentenwoodring
 date: 2024-04-11T23:03:00-03:00
 draft: false
 type: "post"

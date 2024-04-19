@@ -1,5 +1,6 @@
 ---
 title: "Protótipo de gerenciador de projetos"
+author: natkohasic
 date: 2023-11-21T08:27:59-03:00
 draft: false
 type: "post"

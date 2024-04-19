@@ -1,5 +1,6 @@
 ---
 title: "Gerenciamento de Aluguel"
+author: nurpraditya
 date: 2024-01-08T11:49:21-03:00
 draft: false
 type: "post"

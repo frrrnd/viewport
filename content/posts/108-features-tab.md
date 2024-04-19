@@ -1,5 +1,6 @@
 ---
 title: "Features tab for a marketing website"
+author: openpurpose
 date: 2024-04-15T18:58:14-03:00
 draft: false
 type: "post"

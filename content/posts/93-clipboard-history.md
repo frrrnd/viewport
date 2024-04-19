@@ -1,5 +1,6 @@
 ---
 title: "Clipboard history"
+author: shiryoku
 date: 2024-04-10T11:19:08-03:00
 draft: false
 type: "post"

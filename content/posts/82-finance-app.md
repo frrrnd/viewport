@@ -1,5 +1,6 @@
 ---
 title: "Conceito de app de finanças"
+author: fimaaanjp
 date: 2024-04-08T18:01:42-03:00
 draft: false
 type: "post"

@@ -1,5 +1,6 @@
 ---
 title: "Conceito de app de gravação de áudio"
+author: jeffinsam
 date: 2023-11-11T15:45:18-03:00
 draft: false
 type: "post"
