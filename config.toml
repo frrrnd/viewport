@@ -1,28 +1,41 @@
 #baseURL = 'http://localhost:1313/'
 baseURL = 'https://viewport-ui.design/'
 languageCode = 'en-us'
-title = 'Viewport UI - Uma coleção curada de experiências em UI.'
+title = 'Viewport UI - UI curated experiences for you inspiration.'
+
+[taxonomies]
+tag = "tags"
 
 [menu]
-    [[menu.main]]
-        name = "Sugerir"
-        url = "https://x.com/intent/tweet?text=@ViewportUI%20"
+    [[menu.tags]]
+        name = "All"
+        url = "/"
+        weight = 1
+    [[menu.tags]]
+        name = "Watch"
+        url = "/tags/watch"
         weight = 2
-        identifier = "Sugerir [2]"
-        pre = '<svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.7123 3.00959C23.2523 1.51584 21.8048 0.0683403 20.311 0.60959L2.05476 7.21209C0.55601 7.75459 0.374759 9.79959 1.75351 10.5983L7.58101 13.9721L12.7848 8.76834C13.0205 8.54064 13.3363 8.41465 13.664 8.4175C13.9918 8.42035 14.3053 8.55181 14.537 8.78357C14.7688 9.01533 14.9003 9.32884 14.9031 9.65659C14.9059 9.98434 14.78 10.3001 14.5523 10.5358L9.34851 15.7396L12.7235 21.5671C13.521 22.9458 15.566 22.7633 16.1085 21.2658L22.7123 3.00959Z"/></svg>'
-        [menu.main.parms]
-            external = true
-     [[menu.main]]
-        name = "Sobre"
-        url = "/sobre/"
+    [[menu.tags]]
+        name = "Mobile"
+        url = "/tags/mobile"
         weight = 3
-        identifier = "Sobre [3]"
-        pre = '<svg width="13" height="26" viewBox="0 0 13 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.1518 22.5314C10.1424 22.5345 9.27829 22.822 8.52824 22.822C8.11415 22.822 7.94696 22.7361 7.89383 22.6986C7.63131 22.5158 7.14378 22.1736 7.97821 20.511L9.5408 17.3952C10.4674 15.545 10.6049 13.7559 9.92364 12.3558C9.36736 11.2104 8.3001 10.4244 6.92346 10.1431C6.43085 10.0423 5.92931 9.99154 5.42649 9.99158C2.53725 9.99158 0.591821 11.6792 0.510566 11.7511C0.374901 11.8706 0.284912 12.0335 0.255942 12.212C0.226972 12.3905 0.260816 12.5736 0.351703 12.7299C0.44259 12.8862 0.584891 13.0062 0.754341 13.0693C0.923792 13.1325 1.1099 13.1349 1.28092 13.0761C1.28874 13.073 2.15442 12.7839 2.90446 12.7839C3.31542 12.7839 3.48106 12.8699 3.53262 12.9058C3.7967 13.0902 4.2858 13.4371 3.45293 15.0966L1.89034 18.214C0.962156 20.0656 0.82621 21.8548 1.5075 23.2533C2.06379 24.3987 3.12947 25.1847 4.50925 25.466C4.9999 25.5644 5.50306 25.6175 5.99996 25.6175C8.89076 25.6175 10.8378 23.9299 10.919 23.858C11.0548 23.7388 11.145 23.5761 11.1743 23.3977C11.2036 23.2194 11.1702 23.0364 11.0797 22.8799C10.9892 22.7235 10.8473 22.6032 10.6781 22.5397C10.5089 22.4761 10.3229 22.4732 10.1518 22.5314Z" fill="#A0A0A0"/><path d="M8.84081 8.43053C10.9983 8.43053 12.7473 6.68154 12.7473 4.52404C12.7473 2.36655 10.9983 0.617554 8.84081 0.617554C6.68332 0.617554 4.93433 2.36655 4.93433 4.52404C4.93433 6.68154 6.68332 8.43053 8.84081 8.43053Z" fill="#A0A0A0"/></svg>'
-    [[menu.main]]
-        name = "Siga no X"
-        url = "https://x.com/viewportui"
+    [[menu.tags]]
+        name = "Desktop"
+        url = "/tags/desktop"
         weight = 4
-        identifier = "Siga no X [4]"
-        pre = '<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.38037 17.8807L8.14837 11.1127M10.6084 8.65274L17.3804 1.88074M1.38037 1.88074L13.1134 17.8807H17.3804L5.64737 1.88074H1.38037Z" stroke="#7D7D7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
-        [menu.main.params]
-            external = true
+    [[menu.tags]]
+        name = "iOS"
+        url = "/tags/ios"
+        weight = 5
+    [[menu.tags]]
+        name = "Android"
+        url = "/tags/android"
+        weight = 6
+    [[menu.tags]]
+        name = "Icon"
+        url = "/tags/icon"
+        weight = 7
+    [[menu.tags]]
+        name = "Motion"
+        url = "/tags/motion"
+        weight = 8

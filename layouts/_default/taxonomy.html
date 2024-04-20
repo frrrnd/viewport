@@ -1,0 +1,5 @@
+<h1>Taxonomy test</h1>
+
+{{ with .Site.Taxonomies.tags.Page }}
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+{{ end }}
