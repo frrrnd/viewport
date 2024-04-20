@@ -1,0 +1,14 @@
+<nav class="tags-nav">
+    <ul>
+        {{ $current := . }}
+        {{ range .Site.Menus.tags }}
+        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+        {{ $active = or $active (eq .Name $current.Title) }}
+        {{ $active = or $active (eq .URL $current.RelPermalink) }}
+        {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+        <li>
+            <a href="{{ .URL }}" {{ if $active }} class="active" {{ end }}>{{ .Name }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>

@@ -1,5 +1,5 @@
 ---
-title: "Sobre"
+title: "Colophon"
 date: 2023-09-20T15:05:09-03:00
 draft: false
 type: "page"
