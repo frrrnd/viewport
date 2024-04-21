@@ -4,7 +4,7 @@
     {{ partial "menu-tags.html" . }}
     
     <div class="grid-posts">
-    {{ $paginator := .Paginate (where .Site.Pages "Params.type" "post") }}
+    {{ $paginator := .Paginate (where .Site.Pages "Params.type" "post") 9 }}
     {{ range $paginator.Pages }}
         <article class="post">
             <div class="post__inner">
