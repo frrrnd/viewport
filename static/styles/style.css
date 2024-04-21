@@ -297,7 +297,10 @@ hr {
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    padding: 1.25rem 0;
 }
 
 .post__footer {
@@ -312,6 +315,7 @@ hr {
 
 .post__header h3 {
     margin: 0;
+    margin-top: -.375em;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
