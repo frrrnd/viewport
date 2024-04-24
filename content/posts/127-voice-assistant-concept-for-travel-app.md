@@ -1,7 +1,7 @@
 ---
 title: Voice assistant concept for travel app
 date: 2024-04-20T16:57:00.000Z
-draft: true
+draft: false
 type: post
 layout: single
 tags:

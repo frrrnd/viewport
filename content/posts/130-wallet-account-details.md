@@ -1,7 +1,7 @@
 ---
 title: Wallet account details
 date: 2024-04-21T17:03:00.000Z
-draft: true
+draft: false
 type: post
 layout: single
 tags:
