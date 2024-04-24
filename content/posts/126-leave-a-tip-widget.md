@@ -1,7 +1,7 @@
 ---
 title: Leave a tip widget
 date: 2024-04-20T16:56:00.000Z
-draft: true
+draft: false
 type: post
 layout: single
 tags:
