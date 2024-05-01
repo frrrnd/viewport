@@ -204,26 +204,37 @@ hr {
 
 /* Tags nav */
 .tags-nav {
+  position: relative;
+  overflow: hidden;
+
     width: 100%;
     display: flex;
     flex-direction: row;
 
     & ul {
-        padding: 0;
-        list-style: none;
         width: 100%;
+        list-style: none;
+        
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        margin-bottom: 4rem;
+        justify-content: flex-start;
+        gap: .75rem;
+        overflow-x: scroll;
+        
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: .75rem;
+        
+        margin-bottom: 2rem;
+        padding: 1rem .75rem;
     }
 
     & li {
-        margin: 0 8px;
+        scroll-snap-align: start;
         font-size: 14px;
     }
 
     & a {
+        display: block;
         color: #626262;
         border: 1px solid #E7E7E7;
         border-radius: 10px;
@@ -242,6 +253,25 @@ hr {
         color: #E7E7E7;
         border: none;
     }
+}
+
+.tags-nav:before,
+.tags-nav:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1rem;
+}
+
+
+.tags-nav:before {
+    left: 0;
+    background: linear-gradient(90deg, white, transparent);
+}
+.tags-nav:after {
+    right: 0;
+    background: linear-gradient(90deg, transparent, white);
 }
 
 /* home */
