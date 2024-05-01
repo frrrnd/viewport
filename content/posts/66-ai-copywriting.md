@@ -5,6 +5,7 @@ date: 2024-04-01T18:02:51-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop", "Motion"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/choirulsyafril_/status/1737423476267610280"

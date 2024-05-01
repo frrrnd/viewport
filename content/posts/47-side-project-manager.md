@@ -5,6 +5,7 @@ date: 2023-11-21T08:27:59-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Mobile", "Motion"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/natkohasic/status/1724763293007425557"

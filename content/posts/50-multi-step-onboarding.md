@@ -5,6 +5,7 @@ date: 2023-11-21T19:42:09-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/arvydas_gecas/status/1724860216347677148/photo/1"

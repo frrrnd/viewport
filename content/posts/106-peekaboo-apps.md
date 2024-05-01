@@ -5,6 +5,7 @@ date: 2024-04-14T13:34:10-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["iOS", "Mobile", "Motion"]
 tags: ['iOS']
 source: "X"
 source_link: "https://twitter.com/radcraftor/status/1779490988362490269"

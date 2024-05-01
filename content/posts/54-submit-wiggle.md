@@ -5,6 +5,7 @@ date: 2023-12-20T17:14:34-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Motion", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/itsnotchester/status/1705136648756035788"

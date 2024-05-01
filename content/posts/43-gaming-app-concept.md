@@ -5,6 +5,7 @@ date: 2023-11-19T02:13:49-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["iOS", "Mobile", "Android"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/MichaelFilipiuk/status/1725098914418958746/photo/1"

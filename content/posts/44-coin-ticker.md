@@ -5,6 +5,7 @@ date: 2023-11-20T08:59:00-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["iOS", "Mobile", "Android", "Motion"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/7hp_ds/status/1722591577405551100"

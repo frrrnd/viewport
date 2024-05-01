@@ -5,6 +5,7 @@ date: 2024-04-10T11:15:07-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Mobile", "iOS", "Android", "Motion"]
 tags: ['App']
 source: "Layers"
 source_link: "https://layers.to/layers/cluthshgn000ml50dpaqp5y4b"

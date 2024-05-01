@@ -5,6 +5,7 @@ date: 2023-11-19T01:52:06-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["iOS", "Android", "Mobile", "Motion", "Web"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/bchesky/status/1722240568473096688"
