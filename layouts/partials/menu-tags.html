@@ -1,11 +1,11 @@
 <nav class="tags-nav">
     <ul>
         {{ $current := . }}
-        {{ range .Site.Menus.tags }}
+        {{ range .Site.Menus.categories }}
         {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
         {{ $active = or $active (eq .Name $current.Title) }}
         {{ $active = or $active (eq .URL $current.RelPermalink) }}
-        {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+        {{ $active = or $active (and (eq .Name "Categories") (eq $current.Section "categories")) }}
         <li>
             <a href="{{ .URL }}" {{ if $active }} class="active" {{ end }}>{{ .Name }}</a>
         </li>

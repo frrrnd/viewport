@@ -5,37 +5,42 @@ title = 'Viewport UI - UI curated experiences for you inspiration.'
 
 [taxonomies]
 tag = "tags"
+category = "categories"
 
 [menu]
-    [[menu.tags]]
+    [[menu.categories]]
         name = "All"
         url = "/"
         weight = 1
-    [[menu.tags]]
-        name = "Watch"
-        url = "/tags/watch"
+    [[menu.categories]]
+        name = "Web"
+        url = "/categories/web"
         weight = 2
-    [[menu.tags]]
-        name = "Mobile"
-        url = "/tags/mobile"
-        weight = 3
-    [[menu.tags]]
+    [[menu.categories]]
         name = "Desktop"
-        url = "/tags/desktop"
+        url = "/categories/desktop"
+        weight = 3
+    [[menu.categories]]
+        name = "Mobile"
+        url = "/categories/mobile"
         weight = 4
-    [[menu.tags]]
-        name = "iOS"
-        url = "/tags/ios"
+    [[menu.categories]]
+        name = "Watch"
+        url = "/categories/watch"
         weight = 5
-    [[menu.tags]]
-        name = "Android"
-        url = "/tags/android"
+    [[menu.categories]]
+        name = "iOS"
+        url = "/categories/ios"
         weight = 6
-    [[menu.tags]]
-        name = "Icon"
-        url = "/tags/icon"
+    [[menu.categories]]
+        name = "Android"
+        url = "/categories/android"
         weight = 7
-    [[menu.tags]]
-        name = "Motion"
-        url = "/tags/motion"
+    [[menu.categories]]
+        name = "Icon"
+        url = "/categories/icon"
         weight = 8
+    [[menu.categories]]
+        name = "Motion"
+        url = "/categories/motion"
+        weight = 9
