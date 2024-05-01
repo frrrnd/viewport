@@ -5,6 +5,7 @@ date: 2024-04-17T22:31:47.564Z
 draft: false
 type: post
 layout: single
+categories: ["Mobile", "iOS", "Android"]
 tags:
   - App
 source: X

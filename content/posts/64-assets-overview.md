@@ -5,6 +5,7 @@ date: 2024-01-08T11:49:21-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Mobile"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/nurpraditya/status/1737783596059140204"

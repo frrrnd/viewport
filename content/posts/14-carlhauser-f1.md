@@ -5,6 +5,7 @@ date: 2023-11-05T15:58:37-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Mobile", "Desktop", "Motion"]
 tags: ['App']
 source: "Web"
 source_link: "https://www.carlhauser.com/r11"

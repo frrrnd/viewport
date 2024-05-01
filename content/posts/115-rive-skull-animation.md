@@ -5,6 +5,7 @@ date: 2024-04-17T22:34:25.482Z
 draft: false
 type: post
 layout: single
+categories: ["Motion"]
 tags:
   - Rive
   - Motion

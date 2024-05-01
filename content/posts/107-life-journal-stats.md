@@ -5,6 +5,7 @@ date: 2024-04-14T13:35:50-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Mobile", "iOS", "Android"]
 tags: ['App']
 source: "X"
 source_link: "https://layers.to/layers/cluzaix4s001sl90hm97yxrj0"

@@ -5,6 +5,7 @@ date: 2023-11-19T01:54:48-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop", "Motion"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/HeyDetya/status/1722586583197532533"

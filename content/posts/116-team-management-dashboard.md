@@ -5,6 +5,7 @@ date: 2024-04-18T19:01:58.232Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop"]
 tags:
   - Web
 source: X

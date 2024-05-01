@@ -5,6 +5,7 @@ date: 2024-04-20T16:59:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Mobile", "Motion"]
 tags:
   - Web
 source: X
