@@ -5,8 +5,9 @@
 <main class="content">
     <div class="wrap">
         {{ partial "menu-tags.html" . }}
+        {{ $paginator := .Paginate .Data.Pages 9 }}
         <div class="grid-posts">
-            {{ range .Data.Pages }}
+            {{ range $paginator.Pages }}
             <article class="post">
                 <div class="post__inner">
                     <div class="post__media" data-media="{{ .Params.media }}" data-type="{{ .Params.media_type }}">
