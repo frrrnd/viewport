@@ -5,6 +5,7 @@ date: 2023-11-11T15:45:18-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["iOS", "Mobile"]
 tags: ['App']
 source: "Layers"
 source_link: "https://layers.to/layers/clocwnmk20006k20iqax1ukgm"

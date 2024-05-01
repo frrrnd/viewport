@@ -5,6 +5,7 @@ date: 2023-10-24T16:06:51-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/samjshore/status/1704959868912721920"

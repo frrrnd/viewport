@@ -5,6 +5,7 @@ date: 2024-04-08T18:08:17-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/UXpetr/status/1738164594185531751/photo/1"
