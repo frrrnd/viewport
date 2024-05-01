@@ -700,12 +700,20 @@ hr {
   justify-content: center;
   gap: .675rem;
   margin-bottom: 4rem;
+  padding: 0;
+}
+
+.pagination .page-item {
+    display: block;
+    min-width: 2.5rem;
 }
 
 .pagination .page-item a {
+    display: block;
     color: #626262;
     font-size: 1rem;
     line-height: 1;
+    text-align: center;
     padding: .8rem 1rem;
     border: 1px solid #E7E7E7;
     border-radius: 10px;
@@ -727,6 +735,17 @@ hr {
   background-color: #000;
   color: white;
   border: none;
+}
+
+@media screen and (max-width: 580px) {
+
+  li.page-item:nth-child(3):not(.active),
+  li.page-item:nth-child(4):not(.active),
+  li.page-item:nth-child(5):not(.active),
+  li.page-item:nth-child(6):not(.active),
+  li.page-item:nth-child(7):not(.active){
+      display: none;
+  }
 }
 
 @media (max-width: 768px) {
