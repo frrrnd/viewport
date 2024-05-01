@@ -44,6 +44,12 @@ body {
     padding: 0 20px;
 }
 
+@media screen and (min-width: 1680px) {
+  .wrap {
+    --wrap-width: 1800px;
+  }
+}
+
 h1,h2 {
     font-weight: normal;
     text-align: center;
@@ -106,7 +112,7 @@ hr {
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    background: url(../images/top-bg.png) no-repeat;
+    background: url(../images/top-bg.png) repeat-x;
 }
 
 .header .headline {
