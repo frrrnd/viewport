@@ -39,6 +39,7 @@ export default defineConfig({
             draft: true,
             type: "post",
             layout: "single",
+            categories: ["Web"],
             tags: ['Web', 'App'],
             source: "X",
             media_type: "image",
