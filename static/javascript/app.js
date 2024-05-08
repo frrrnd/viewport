@@ -26,21 +26,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Menu mobile
 
-const aside = document.querySelector("#aside");
-const menuButton = document.querySelector("#openMenu");
-const closeMenu = document.querySelector("#closeMenu");
+// const aside = document.querySelector("#aside");
+// const menuButton = document.querySelector("#openMenu");
+// const closeMenu = document.querySelector("#closeMenu");
 
-menuButton.addEventListener('click', function (e) {
-  e.preventDefault();
+// menuButton.addEventListener('click', function (e) {
+//   e.preventDefault();
 
-  aside.classList.toggle("menuOpened");
-});
+//   aside.classList.toggle("menuOpened");
+// });
 
-closeMenu.addEventListener('click', function(e) {
-  e.preventDefault();
+// closeMenu.addEventListener('click', function(e) {
+//   e.preventDefault();
 
-  aside.classList.remove("menuOpened");
-});
+//   aside.classList.remove("menuOpened");
+// });
 
 
 // Lightbox

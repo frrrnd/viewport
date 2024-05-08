@@ -4,6 +4,7 @@ date: 2024-04-22T17:00:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop"]
 tags:
   - Web
   - Pricing

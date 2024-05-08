@@ -4,6 +4,7 @@ date: 2024-04-25T20:24:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Icon"]
 tags:
   - Icon
 source: X

@@ -39,6 +39,7 @@ export default defineConfig({
             draft: true,
             type: "post",
             layout: "single",
+            categories: ["Web"],
             tags: ['Web', 'App'],
             source: "X",
             media_type: "image",
@@ -63,6 +64,12 @@ export default defineConfig({
             label: "Title",
             isTitle: true,
             required: true,
+          },
+          {
+            type: "string",
+            name: "author",
+            label: "Author",
+            required: false,
           },
           {
             type: "rich-text",

@@ -1,9 +1,11 @@
 ---
 title: "Sidebar usando ícones do Pikaicon"
+author: iamsahilvhora
 date: 2024-04-05T16:48:19-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/iamsahilvhora/status/1737837673824620647/photo/1"

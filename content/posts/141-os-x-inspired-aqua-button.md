@@ -4,6 +4,7 @@ date: 2024-04-26T20:29:14.035Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop", "Mobile"]
 tags:
   - Web
   - Nav

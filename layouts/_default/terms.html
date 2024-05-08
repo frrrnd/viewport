@@ -1,0 +1,10 @@
+<h1>tag terms.html</h1>
+
+{{ $taxo := "tags" }}
+<ul class="{{ $taxo }}">
+  {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>

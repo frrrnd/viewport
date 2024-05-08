@@ -1,9 +1,11 @@
 ---
 title: "Website layout for a Framer template"
+author: rustysain
 date: 2024-04-13T20:28:32-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop", "Motion"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/rustysain/status/1775821968912310400"

@@ -1,9 +1,11 @@
 ---
 title: "Exploração de caixa de comentários, com votação"
+author: aliicorak
 date: 2024-04-08T18:05:22-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/aliicorak/status/1738129751422685231/photo/2"

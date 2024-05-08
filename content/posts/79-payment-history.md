@@ -1,9 +1,11 @@
 ---
 title: "Histórico de pagamentos para app mobile"
+author: hejsmalltribe
 date: 2024-04-07T17:28:01-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Mobile"]
 tags: ['Mobile']
 source: "X"
 source_link: "https://twitter.com/hejsmalltribe/status/1737427691832504618/photo/1"

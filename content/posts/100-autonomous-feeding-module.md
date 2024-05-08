@@ -1,9 +1,11 @@
 ---
 title: "Interface design for an autonomous feeding module in the CageEye system"
+author: deesprut
 date: 2024-04-11T23:07:11-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['App']
 source: "X"
 source_link: "https://twitter.com/deesprut/status/1738319660829884753/photo/1"

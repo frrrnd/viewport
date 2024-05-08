@@ -1,9 +1,11 @@
 ---
 title: "Modal de confirmação de pagamento"
+author: JimDesignsCo
 date: 2024-04-07T17:25:15-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop", "Mobile"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/JimDesignsCo/status/1737474070801691136/photo/1"

@@ -4,6 +4,7 @@ date: 2024-04-30T15:34:39.876Z
 draft: false
 type: post
 layout: single
+categories: ["App", "Mobile", "Web", "iOS", "Android"]
 tags:
   - Onboarding
   - App

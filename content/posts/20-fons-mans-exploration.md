@@ -1,9 +1,11 @@
 ---
 title: "Conceito visual de site"
+author: FonsMans
 date: 2023-11-10T15:39:33-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Web']
 source: "X"
 source_link: "https://twitter.com/FonsMans/status/1721951874310652168"

@@ -1,9 +1,11 @@
 ---
 title: "Ícones Stroke ou Duotone?"
+author: huge_icons
 date: 2024-01-01T09:52:58-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop"]
 tags: ['Ícones', 'Web']
 source: "X"
 source_link: "https://twitter.com/huge_icons/status/1706201978580427044/photo/1"

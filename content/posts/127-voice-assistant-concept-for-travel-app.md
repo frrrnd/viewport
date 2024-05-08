@@ -1,9 +1,11 @@
 ---
 title: Voice assistant concept for travel app
+author: slavakornilov
 date: 2024-04-20T16:57:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Mobile", "Motion", "iOS", "Android"]
 tags:
   - App
 source: X

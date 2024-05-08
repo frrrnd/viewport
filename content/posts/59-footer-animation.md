@@ -1,9 +1,11 @@
 ---
 title: "Animação de footer"
+author: alex_barashkov
 date: 2024-01-05T10:08:01-03:00
 draft: false
 type: "post"
 layout: "single"
+categories: ["Web", "Desktop", "Motion"]
 tags: ['Web']
 source: "Layers"
 source_link: "https://layers.to/layers/cln25csjo002el70g5q1rqme2"

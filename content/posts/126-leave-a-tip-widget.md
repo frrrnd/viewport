@@ -1,9 +1,11 @@
 ---
 title: Leave a tip widget
+author: mlaithv
 date: 2024-04-20T16:56:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Mobile", "Web", "iOS", "Android", "Motion"]
 tags:
   - Web
   - App

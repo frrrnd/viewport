@@ -4,6 +4,7 @@ date: 2024-04-28T21:56:08.631Z
 draft: false
 type: post
 layout: single
+categories: ["App", "iOS", "Android", "Mobile","Icon"]
 tags:
   - App
   - Widget

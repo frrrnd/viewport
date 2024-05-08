@@ -1,9 +1,11 @@
 ---
 title: Testimonial Widget Design
+author: minuiux
 date: 2024-04-19T16:49:47.873Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop"]
 tags:
   - Web
 source: Layers

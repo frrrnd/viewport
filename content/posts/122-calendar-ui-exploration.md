@@ -1,9 +1,11 @@
 ---
 title: Calendar UI Exploration
+author: vincentiusrangga
 date: 2024-04-19T16:50:47.043Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop"]
 tags:
   - Web
   - App

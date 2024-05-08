@@ -1,40 +1,53 @@
 {{ partial "head.html" . }}
-{{ partial "aside.html" . }}
+{{ partial "header.html" . }}
 
 <div class="content">
-    <div class="wrap">
+    <div class="single-wrap">
         <article class="post">
             <div class="post__inner">
                 <header role="banner" class="post__header">
                     <a href="{{ .Permalink }}">
-                        <h3>{{ .Title }}</h3>
-                        <time>{{ .Date.Format "02.01.2006" }}</time>
+                        <h3>{{ .Title }} by <span>@{{ .Params.author }}</span></h3>
                     </a>
+                    
+                    <span>
+                        <a href="{{ .Params.source_link}}" target="_blank" data-source="">
+                            {{ if eq .Params.source "Layers" }}
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.631425 14.0366L0.691097 5.08738C0.701539 3.4673 1.83455 2.07845 3.39869 1.7689L12.0413 0.0555874C14.1179 -0.356145 16.0453 1.26915 16.0319 3.41956L15.9722 12.3703C15.961 13.9896 14.828 15.3777 13.2639 15.688L4.6212 17.4013C2.54464 17.8131 0.617253 16.1878 0.631425 14.0366Z" fill="#111827" fill-opacity="0.2"/>
+                                <path d="M4.8658 17.6073L4.92547 8.65657C4.93517 7.03799 6.06893 5.64988 7.63306 5.33959L16.2757 3.62702C18.3523 3.21529 20.2797 4.83984 20.2655 6.991L20.2058 15.9417C20.1954 17.561 19.0624 18.9491 17.4982 19.2594L8.85558 20.9728C6.77901 21.3837 4.85163 19.7592 4.8658 17.6088V17.6073Z" fill="#111827" fill-opacity="0.5"/>
+                                <path d="M9.10021 21.1779L9.15988 12.2272C9.17033 10.6071 10.3033 9.21976 11.8675 8.90947L20.5101 7.19615C22.5867 6.78442 24.5141 8.40972 24.4999 10.5601L24.4402 19.5108C24.4298 21.1309 23.2968 22.519 21.7326 22.8286L13.09 24.5419C11.0134 24.9536 9.08604 23.3283 9.09947 21.1779H9.10021Z" fill="#111827" fill-opacity="0.8"/>
+                            </svg>
+                            {{ else }}
+                            <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_72_8)">
+                                <path d="M18.6531 2.25702H22.2358L14.4092 11.1642L23.6166 23.2838H16.4067L10.7611 15.9326L4.30002 23.2838H0.713792L9.08594 13.7575L0.25354 2.25702H7.64561L12.7504 8.97623L18.6531 2.25702ZM17.3962 21.1484H19.382L6.56623 4.28026H4.43552L17.3962 21.1484Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_72_8">
+                                <rect width="23.87" height="24.61" fill="white" transform="translate(0 0.465393)"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            {{ end }}
+                        </a>
+                    </span>
                 </header>
-    
-                <div class="post__media">
+                <div class="post__media" data-media="{{ .Params.media }}" data-type="{{ .Params.media_type }}">
                     {{ if eq .Params.media_type "image" }}
                         <img src="{{ .Params.media }}" alt="{{ .Title }}">
                     {{ else }}
                         <video src="{{ .Params.media }}" playsinline autoplay loop muted></video>
                     {{ end }}
                 </div>
-    
+            
                 <div class="post__content">
                     {{ .Content }}
                 </div>
-    
+
                 <footer class="post__footer">
-                    <div class="post__meta">
-                        {{ partial "tags.html" . }}
-                        <p>
-                            <a href="{{ .Params.source_link}}" target="_blank">
-                                <svg width="21" height="11" viewBox="0 0 21 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.59229 10.5488H5.59229C4.20895 10.5488 3.02962 10.0611 2.05429 9.08577C1.07895 8.11043 0.591619 6.93143 0.592286 5.54877C0.592286 4.16543 1.07995 2.9861 2.05529 2.01077C3.03062 1.03543 4.20962 0.548101 5.59229 0.548768H9.59229V2.54877H5.59229C4.75895 2.54877 4.05062 2.84043 3.46729 3.42377C2.88395 4.0071 2.59229 4.71543 2.59229 5.54877C2.59229 6.3821 2.88395 7.09043 3.46729 7.67377C4.05062 8.2571 4.75895 8.54877 5.59229 8.54877H9.59229V10.5488ZM6.59229 6.54877V4.54877H14.5923V6.54877H6.59229ZM11.5923 10.5488V8.54877H15.5923C16.4256 8.54877 17.134 8.2571 17.7173 7.67377C18.3006 7.09043 18.5923 6.3821 18.5923 5.54877C18.5923 4.71543 18.3006 4.0071 17.7173 3.42377C17.134 2.84043 16.4256 2.54877 15.5923 2.54877H11.5923V0.548768H15.5923C16.9756 0.548768 18.155 1.03643 19.1303 2.01177C20.1056 2.9871 20.593 4.1661 20.5923 5.54877C20.5923 6.9321 20.1046 8.11143 19.1293 9.08677C18.154 10.0621 16.975 10.5494 15.5923 10.5488H11.5923Z" fill="#9196AD"/>
-                                </svg>
-                            </a>
-                        </p>
-                    </div>
+                    {{ partial "tags.html" . }}
+                    <time>{{ .Date.Format "02.01.2006" }}</time>
                 </footer>
             </div>
         </article>

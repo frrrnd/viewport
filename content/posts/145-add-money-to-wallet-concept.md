@@ -4,6 +4,7 @@ date: 2024-04-27T21:42:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["App", "iOS", "Android", "Mobile"]
 tags:
   - Finance
   - App
