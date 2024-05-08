@@ -4,6 +4,7 @@ date: 2024-05-05T02:33:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["App", "Mobile", "iOS", "Watch"]
 tags:
   - Web
   - App
