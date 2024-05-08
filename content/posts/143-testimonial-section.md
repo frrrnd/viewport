@@ -4,6 +4,7 @@ date: 2024-04-26T20:33:35.502Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Mobile"]
 tags:
   - Mobile
 source: Layers

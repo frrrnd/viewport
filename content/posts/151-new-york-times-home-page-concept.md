@@ -4,6 +4,7 @@ date: 2024-04-28T21:54:27.894Z
 draft: false
 type: post
 layout: single
+categories: ["Desktop", "Web", "Motion"]
 tags:
   - Web
 source: X

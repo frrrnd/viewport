@@ -4,6 +4,7 @@ date: 2024-04-30T15:37:29.057Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop"]
 tags:
   - Web
   - App

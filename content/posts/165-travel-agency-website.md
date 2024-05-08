@@ -4,6 +4,7 @@ date: 2024-04-30T15:35:28.171Z
 draft: false
 type: post
 layout: single
+categories: ["App", "Desktop", "Web"]
 tags:
   - Web
   - Marketing

@@ -4,6 +4,7 @@ date: 2024-05-02T21:21:56.433Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desltop"]
 tags:
   - Web
   - Desktop

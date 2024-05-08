@@ -4,6 +4,7 @@ date: 2024-04-30T15:30:31.063Z
 draft: false
 type: post
 layout: single
+categories: ["App", "Desktop", "Web"]
 tags:
   - Web
   - Dashboard

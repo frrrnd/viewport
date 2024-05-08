@@ -4,6 +4,7 @@ date: 2024-04-29T22:24:10.181Z
 draft: false
 type: post
 layout: single
+categories: ["App", "iOS", "Android", "Mobile", "Motion"]
 tags:
   - Widget
   - Motion

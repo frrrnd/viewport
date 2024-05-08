@@ -4,6 +4,7 @@ date: 2024-04-26T20:30:00.000Z
 draft: false
 type: post
 layout: single
+categories: ["Web", "Desktop", "Icon", "Motion"]
 tags:
   - Web
   - Interaction

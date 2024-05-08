@@ -4,6 +4,7 @@ date: 2024-04-30T15:36:29.623Z
 draft: false
 type: post
 layout: single
+categories: ["App", "Mobile","iOS", "Android"]
 tags:
   - Voice
   - App

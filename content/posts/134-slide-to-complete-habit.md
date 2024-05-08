@@ -4,6 +4,7 @@ date: 2024-04-24T17:05:30.173Z
 draft: false
 type: post
 layout: single
+categories: ["App", "iOS", "Android", "Motion", "Mobile"]
 tags:
   - Motion
   - App
