@@ -106,6 +106,13 @@ export default defineConfig({
           },
           {
             type: "string",
+            name: "categories",
+            label: "Categories",
+            required: true,
+            list: true,
+          },
+          {
+            type: "string",
             name: "tags",
             label: "Tags",
             required: true,
