@@ -380,8 +380,13 @@ hr {
 .post__header a svg {
     width: 1rem;
     height: 1rem;
-
     opacity: .4;
+    transition: .4s;
+}
+
+.post__header a:hover svg {
+    opacity: 1;
+    transition: .4s;
 }
 
 .post__meta {
