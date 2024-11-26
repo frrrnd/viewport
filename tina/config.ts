@@ -140,6 +140,10 @@ export default defineConfig({
                 value: "Behance",
                 label: "Behance",
               },
+              {
+                value: "Posts",
+                label: "Posts.cv",
+              }
             ]
           },
           {

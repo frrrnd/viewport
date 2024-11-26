@@ -468,6 +468,11 @@ hr {
   margin-block-end: 0;
 }
 
+.post__source-icon {
+  width: 20px;
+  height: 20px;
+}
+
 .highlight {
     background-color: #2B2D38;
 }
