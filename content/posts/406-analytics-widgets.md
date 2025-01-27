@@ -1,6 +1,6 @@
 ---
 title: "Analytics Widgets"
-author: "Michael · Design Partner"
+author: "MichaelFilipiuk"
 date: "2025-01-23T05:13:23.014Z"
 draft: false
 type: "post"

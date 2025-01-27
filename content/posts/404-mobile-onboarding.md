@@ -1,6 +1,6 @@
 ---
 title: "Mobile Onboarding"
-author: "Oğuz B"
+author: "moguzbulbul"
 date: "2025-01-23T04:47:16.829Z"
 draft: false
 type: "post"

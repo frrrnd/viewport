@@ -1,6 +1,6 @@
 ---
 title: "Movie Carousel"
-author: "Matthi Schmid"
+author: "matthischmid"
 date: "2025-01-24T02:21:21.808Z"
 draft: false
 type: "post"

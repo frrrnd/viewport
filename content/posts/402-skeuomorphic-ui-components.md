@@ -1,6 +1,6 @@
 ---
 title: "Skeuomorphic UI Components"
-author: "Mik Skuza"
+author: "MikSkuza"
 date: "2025-01-23T04:15:13.747Z"
 draft: false
 type: "post"

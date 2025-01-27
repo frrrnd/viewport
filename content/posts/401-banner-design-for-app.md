@@ -1,6 +1,6 @@
 ---
 title: "Banner Design for App"
-author: "Pragdesigns"
+author: "pragdesigns"
 date: "2025-01-23T02:39:16.674Z"
 draft: false
 type: "post"

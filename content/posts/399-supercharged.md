@@ -1,6 +1,6 @@
 ---
 title: "Supercharged"
-author: "Dmitry Kurash"
+author: "DmitryKurash"
 date: "2025-01-23T02:36:33.428Z"
 draft: false
 type: "post"

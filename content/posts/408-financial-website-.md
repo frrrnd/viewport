@@ -1,6 +1,6 @@
 ---
 title: "Financial Website "
-author: "Victor"
+author: "deaconu_victor"
 date: "2025-01-24T02:20:26.789Z"
 draft: false
 type: "post"

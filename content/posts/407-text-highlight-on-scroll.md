@@ -1,6 +1,6 @@
 ---
 title: "Text highlight on scroll"
-author: "Oğuz B"
+author: "moguzbulbul"
 date: "2025-01-24T02:19:29.406Z"
 draft: false
 type: "post"

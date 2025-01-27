@@ -1,6 +1,6 @@
 ---
 title: "Floating Bar Animation"
-author: "A. Hassan"
+author: "azhassan_"
 date: "2025-01-23T04:50:13.869Z"
 draft: false
 type: "post"
