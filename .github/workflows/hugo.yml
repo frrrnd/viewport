@@ -34,7 +34,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify --baseURL "${{ github.server_url }}/${{ github.repository }}/"
+          hugo --minify --baseURL "https://viewportui.com/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
