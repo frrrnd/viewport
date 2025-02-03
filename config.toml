@@ -3,9 +3,6 @@ baseURL = 'https://viewportui.com/'
 languageCode = 'en-us'
 title = 'Viewport UI - UI curated experiences for you inspiration.'
 
-[params]
-  alternateBaseURL = 'https://viewport-ui.design/'
-
 [taxonomies]
 tag = "tags"
 category = "categories"

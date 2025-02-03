@@ -9,7 +9,7 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    environment: github-pages    # Add this line
+    environment: github-pages
     env:
       HUGO_VERSION: 0.114.0
     steps:
@@ -34,10 +34,16 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify --baseURL "https://viewportui.com/"
+          hugo --minify --baseURL "https://viewportui.com/" --debug
+
+      - name: List generated files
+        run: |
+          ls -la public/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
+          force_orphan: true
+          commit_message: "Deploy: ${{ github.sha }}"
