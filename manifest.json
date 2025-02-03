@@ -1,0 +1,16 @@
+{
+    "name": "Viewport",
+    "short_name": "Viewport",
+    "description": "Uma coleção curada de experiências em UI.",
+    "start_url": "/",
+    "scope": ".",
+    "background_color": "#030303",
+    "theme_color": "#030303",
+    "display": "fullscreen",
+    "icons": [{
+      "src": "/images/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }
