@@ -52,9 +52,9 @@ jobs:
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        # Using the GitHub Pages–specific artifact uploader instead of the general upload-artifact action
+        uses: actions/upload-pages-artifact@v2
         with:
-          name: site
           path: ./public
 
   # Deployment job
