@@ -9,6 +9,7 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    environment: github-pages    # Add this line
     env:
       HUGO_VERSION: 0.114.0
     steps:
