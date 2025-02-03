@@ -1,5 +1,5 @@
 #baseURL = 'http://localhost:1313/'
-baseURL = 'https://viewportui.com/'
+baseURL = 'https://viewport-ui.design/'
 languageCode = 'en-us'
 title = 'Viewport UI - UI curated experiences for you inspiration.'
 
